@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+			<label index="felogin_forgotHash">Забыл хэш</label>
+			<label index="felogin_redirectPid">При авторизации перенаправлять на страницу (felogin)</label>
+			<label index="tt_content.CType_pi1">Авторизация пользователей сайта</label>
+			<label index="tt_content.pi_flexform.error_header">Заголовок сообщения об ошибке авторизации</label>
+			<label index="tt_content.pi_flexform.error_message">Сообщение об ошибке авторизации</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Используя список полей внизу:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">Поля в режиме деталей пользователя:</label>
+			<label index="tt_content.pi_flexform.field_orderList">Поля в режиме списка пользователей:</label>
+			<label index="tt_content.pi_flexform.forgot_header">Заголовок сообщения о забытом пароле</label>
+			<label index="tt_content.pi_flexform.forgot_message">Сообщение о забытом пароле</label>
+			<label index="tt_content.pi_flexform.general_header">Общий заголовок</label>
+			<label index="tt_content.pi_flexform.general_message">Общее сообщение</label>
+			<label index="tt_content.pi_flexform.groupSelection">FE группа выбор:</label>
+			<label index="tt_content.pi_flexform.groupSelection_noGroup">без группы</label>
+			<label index="tt_content.pi_flexform.groupSelectmode">Режим выбора группы FE:</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Не показывать выбранное</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_FromTS">(определено в Typoscript)</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">Показать всё</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">Показать выбранное</label>
+			<label index="tt_content.pi_flexform.logout_header">Заголовок сообщения при выходе</label>
+			<label index="tt_content.pi_flexform.logout_message">Сообщение при выходе</label>
+			<label index="tt_content.pi_flexform.redirectDisable">Включить переадресацию</label>
+			<label index="tt_content.pi_flexform.redirectFirstMethod">Использовать первый найденный режим из выбранного</label>
+			<label index="tt_content.pi_flexform.redirect_header">Заголовок сообщения при переадресации</label>
+			<label index="tt_content.pi_flexform.redirect_message">Сообщение при переадресации</label>
+			<label index="tt_content.pi_flexform.redirectMode">Режим перенаправления</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.0">Определено в записи группы пользователя</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.1">Определено в записи пользователя</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.2">После авторизации (TS или форма)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.3">После выхода (TS или форма)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.4">После ошибки авторизации (TS или форма)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.5">Определяется в переменных GET/POST</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.6">Определяется реферрером</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.7">Определяется доменом</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">После успешной авторизации перенаправлять на страницу</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">При ошибке авторизации перенаправлять на страницу</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">После выхода перенаправлять на страницу</label>
+			<label index="tt_content.pi_flexform.sheet_general">Общие</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Сообщения</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">Переадресация</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Показать ссылку для восстановления пароля</label>
+			<label index="tt_content.pi_flexform.show_logoutFormAfterLogin">Отключить перенаправление после успешного входа в систему, но отображать форму выхода</label>
+			<label index="tt_content.pi_flexform.show_permalogin">Показать параметр о запоминании авторизации</label>
+			<label index="tt_content.pi_flexform.status_header">Заголовок сообщения о статусе пользователя</label>
+			<label index="tt_content.pi_flexform.status_message">Сообщение о статусе пользователя</label>
+			<label index="tt_content.pi_flexform.success_header">Заголовок сообщения об успешной авторизации</label>
+			<label index="tt_content.pi_flexform.success_message">Сообщение об успешной авторизации</label>
+			<label index="tt_content.pi_flexform.template_file">Файл шаблона</label>
+			<label index="tt_content.pi_flexform.user_storage">Страница хранилище пользователей</label>
+			<label index="tt_content.pi_flexform.welcome_header">Заголовок приветствия</label>
+			<label index="tt_content.pi_flexform.welcome_message">Приветствие</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

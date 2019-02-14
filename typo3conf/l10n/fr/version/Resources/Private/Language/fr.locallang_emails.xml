@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="message">Sur le site TYPO3 "###SITE_NAME###" (###SITE_URL###)
+dans l'espace de travail "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
+l'étape a changé pour le ou les élements "###RECORD_TITLE###" (###ELEMENT_NAME###) se trouvant à "###RECORD_PATH###" dans l'arborescence des pages:
+
+=&gt; ###NEXT_STAGE###
+
+Commentaire de l'utilisateur:
+"###COMMENT###"
+L'étape a été changé par ###USER_FULLNAME### (nom d'utilisateur: ###USER_USERNAME###)</label>
+			<label index="subject">TYPO3 Note pour l'espace de travail : l'état change pour ###ELEMENT_NAME###</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

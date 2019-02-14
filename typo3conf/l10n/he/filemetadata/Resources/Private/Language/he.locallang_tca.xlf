@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T02:02:54Z" product-name="filemetadata">
+		<header/>
+		<body>
+			<trans-unit id="fe_groups.files" approved="yes">
+				<source>Allowed files</source>
+				<target state="translated">סוגי קבצים מותרים</target>
+			</trans-unit>
+			<trans-unit id="palette.content_date" approved="yes">
+				<source>Content Date</source>
+				<target state="translated">תאריך עדכון תוכן</target>
+			</trans-unit>
+			<trans-unit id="palette.geo_location" approved="yes">
+				<source>Geo Location</source>
+				<target state="translated">מיקום גאוגראפי</target>
+			</trans-unit>
+			<trans-unit id="palette.metrics" approved="yes">
+				<source>Metrics</source>
+				<target state="translated">מטריקה</target>
+			</trans-unit>
+			<trans-unit id="palette.visibility" approved="yes">
+				<source>Visibility</source>
+				<target state="translated">מצב הצגה</target>
+			</trans-unit>
+			<trans-unit id="placeholder.keywords" approved="yes">
+				<source>Keyword #1, keyword #2, ...</source>
+				<target state="translated">מילת מפתח 1, מילת מפתח 2, ...</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.caption" approved="yes">
+				<source>Caption</source>
+				<target state="translated">כיתוב</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.color_space" approved="yes">
+				<source>Color Space</source>
+				<target state="translated">מרחב צבעים</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.content_creation_date" approved="yes">
+				<source>Content Creation Date</source>
+				<target state="translated">תאריך יצירת תוכן</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.content_modification_date" approved="yes">
+				<source>Content Modification Date</source>
+				<target state="translated">תאריך עדכון תוכן</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.creator" approved="yes">
+				<source>Creator</source>
+				<target state="translated">יוצר</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.creator_tool" approved="yes">
+				<source>Creator Tool</source>
+				<target state="translated">מיוצר ע"י</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.download_name" approved="yes">
+				<source>Download Name</source>
+				<target state="translated">שם קובץ להורדה</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.duration" approved="yes">
+				<source>Duration (in seconds)</source>
+				<target state="translated">משך בשניות:</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.fe_groups" approved="yes">
+				<source>Frontend Permission</source>
+				<target state="translated">הרשאות אתר FE</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.height" approved="yes">
+				<source>Height</source>
+				<target state="translated">גובע</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.keywords" approved="yes">
+				<source>Keywords</source>
+				<target state="translated">מילות מפתח</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.language" approved="yes">
+				<source>File Language</source>
+				<target state="translated">שפת הקובץ</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.latitude" approved="yes">
+				<source>Latitude</source>
+				<target state="translated">קו רוחב</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.location_city" approved="yes">
+				<source>City</source>
+				<target state="translated">עיר</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.location_country" approved="yes">
+				<source>Country</source>
+				<target state="translated">ארץ</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.location_region" approved="yes">
+				<source>Region</source>
+				<target state="translated">אזור</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.longitude" approved="yes">
+				<source>Longitude</source>
+				<target state="translated">קו אורך</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.note" approved="yes">
+				<source>Note</source>
+				<target state="translated">הערה</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.pages" approved="yes">
+				<source>Number of Pages</source>
+				<target state="translated">מספר עמודים</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.publisher" approved="yes">
+				<source>Publisher</source>
+				<target state="translated">מפיץ</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.ranking" approved="yes">
+				<source>Ranking</source>
+				<target state="translated">דירוג</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.source" approved="yes">
+				<source>Source</source>
+				<target state="translated">מקור</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.status" approved="yes">
+				<source>Status</source>
+				<target state="translated">מצב</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.status.1" approved="yes">
+				<source>Ok</source>
+				<target state="translated">OK</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.status.2" approved="yes">
+				<source>Pending</source>
+				<target state="translated">בהמתנה</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.status.3" approved="yes">
+				<source>Under review</source>
+				<target state="translated">מחקה לסקירה</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.unit" approved="yes">
+				<source>Unit</source>
+				<target state="translated">יחידה</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.visible" approved="yes">
+				<source>Visible</source>
+				<target state="translated">גלוי</target>
+			</trans-unit>
+			<trans-unit id="sys_file_metadata.width" approved="yes">
+				<source>Width</source>
+				<target state="translated">רוחב</target>
+			</trans-unit>
+			<trans-unit id="tabs.metadata" approved="yes">
+				<source>Metadata</source>
+				<target state="translated">מטא־נתונים</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

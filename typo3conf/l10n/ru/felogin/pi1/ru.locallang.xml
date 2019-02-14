@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+			<label index="change_password">Изменение пароля</label>
+			<label index="cookie_warning">Внимание: Возможно в вашем браузере запрещены cookies! Если форма входа не отобразится после следующего щелчка, разрешите cookies (или примите cookies этого сайта) незамедлительно!</label>
+			<label index="ll_change_password_done_message">Пароль сохранен. Теперь можно зарегистрироваться с новым паролем.</label>
+			<label index="ll_change_password_header">Изменить свой пароль</label>
+			<label index="ll_change_password_message">Введите свой пароль дважды. Длина пароля должна быть по крайней мере %s символов.</label>
+			<label index="ll_change_password_nolinkprefix_message">Ошибка: нет префикса для ссылки. Установите один из следующих с своем шаблоне typoscript: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRefPrefix = /</label>
+			<label index="ll_change_password_notequal_message">Подтвержденный пароль не верен, дважды введите новый пароль. Длина пароля должна быть по крайней мере %s символов.</label>
+			<label index="ll_change_password_notvalid_message">Неверная ссылка. Повторите процедуру восстановления пароля.</label>
+			<label index="ll_change_password_tooshort_message">Введенный пароль слишком короткий. Введите пароль дважды. Длина пароля должна быть по крайней мере %s символов.</label>
+			<label index="ll_enter_your_data">Имя пользователя или адрес электронной почты</label>
+			<label index="ll_error_header">Ошибка при входе в систему</label>
+			<label index="ll_error_message">Произошла ошибка при входе в систему. Вероятно имя пользователя или пароль не верные.
+Проверьте, правильно ли введены данные, был ли использован правильный язык, заглавные или прописные буквы.
+Убедитесь также, допускает ли Ваш обозреватель Cookies.</label>
+			<label index="ll_forgot_email_nopassword">Ваш пароль
+Здравствуйте %s
+
+Мы не можем найти пользователя с именем, которое соответствует указанному вами адресу электронной почты и в связи с этим, мы не можем отправить вам ваш пароль. Возможно, вы ошиблись в адресе электронной почты (учтите, регистр символов важен) или ещё не зарегистрировались?</label>
+			<label index="ll_forgot_email_password">Ваш пароль
+Здравствуйте %s
+
+Ваше имя пользователя: "%s"
+Ваш пароль: "%s"</label>
+			<label index="ll_forgot_header">Забыли пароль?</label>
+			<label index="ll_forgot_header_backToLogin">Вернуться к форме входа в систему</label>
+			<label index="ll_forgot_message">Введите пожалуйста, email адрес, указанный при регистрации. Нажмите на "Отправить пароль" и вы получите пароль на данный адрес незамедлительно. Удостоверьтесь в правильности указанного адреса.</label>
+			<label index="ll_forgot_message_emailSent">Ваш пароль был выслан по адресу %s</label>
+			<label index="ll_forgot_reset_message">Введите свое имя пользователя или адрес электронной почты. Инструкция по сбросу пароля будет немедленно отправлена по введенному адресу.</label>
+			<label index="ll_forgot_reset_message_emailSent">По адресу, сохраненному для учетной записи, было отправлено письмо со ссылкой для сброса пароля. Если письмо не было получено, то такая учетная запись или адрес электронной почты не найдены.</label>
+			<label index="ll_forgot_reset_message_error">Не найдена учетная запись или адрес email.</label>
+			<label index="ll_forgot_validate_reset_password">Ваш новый пароль
+Уважаемый %s,
+
+Это письмо было послано в ответ на просьбу сброса пароля. Щелкните по ссылке ниже.
+%s
+
+В целях безопасности, эта ссылка действительна в течение %s. Если за это время Вы не смогли перейти по ссылке, повторите процедуру сброса пароля.</label>
+			<label index="ll_logout_header">Вы вышли из системы.</label>
+			<label index="ll_logout_message">Вы автоматически вошли в систему. Чтобы зарегистрироваться снова или войти в систему под другим именем, используйте форму ниже.</label>
+			<label index="ll_status_header">Текущий статус</label>
+			<label index="ll_status_message">Ваш текущий статус</label>
+			<label index="ll_success_header">Вход в систему прошел успешно</label>
+			<label index="ll_success_message">Ваше имя пользователя: '###USER###'</label>
+			<label index="ll_welcome_header">Вход в систему</label>
+			<label index="ll_welcome_message">Введите имя пользователя и пароль для входа в систему</label>
+			<label index="login">Вход в систему</label>
+			<label index="logout">Выход из системы</label>
+			<label index="newpassword_label1">Ввод нового пароля</label>
+			<label index="newpassword_label2">Повторите новый пароль</label>
+			<label index="noValidRedirectUrl">Url "%s" для перенаправления не был принят!</label>
+			<label index="password">Пароль</label>
+			<label index="permalogin">Запомнить меня</label>
+			<label index="reset_password">Сбросить пароль</label>
+			<label index="send_password">Отправить пароль</label>
+			<label index="username">Имя пользователя</label>
+			<label index="xssAttackDetected">Url "%s" содержал атаку XSS и был очищен!</label>
+			<label index="your_email">Ваш email</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

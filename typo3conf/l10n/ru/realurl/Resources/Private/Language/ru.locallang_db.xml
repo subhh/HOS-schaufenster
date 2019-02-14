@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+			<label index="pages.tx_realurl_pathsegment">Понятный сегмент адреса URL</label>
+			<label index="pages.tx_realurl_exclude">Исключить из понятного URL</label>
+			<label index="pages.tx_realurl_path_override">Переписать весь путь к странице</label>
+			<label index="pages.palette_title">Понятный URL</label>
+			<label index="tx_realurl_pathdata">Данные пути RealURL</label>
+			<label index="tx_realurl_pathdata.page_id">ID страницы:</label>
+			<label index="tx_realurl_pathdata.rootpage_id">ID страницы Root:</label>
+			<label index="tx_realurl_pathdata.language_id">ID языка:</label>
+			<label index="tx_realurl_pathdata.mpvar">Параметр MP:</label>
+			<label index="tx_realurl_pathdata.pagepath">Путь страницы:</label>
+			<label index="tx_realurl_pathdata.expire">Истекает:</label>
+			<label index="tx_realurl_uniqalias">Уникальный псевдоним RealURL</label>
+			<label index="tx_realurl_uniqalias.expire">Истекает:</label>
+			<label index="tx_realurl_uniqalias.lang">ID языка:</label>
+			<label index="tx_realurl_uniqalias.tablename">Название таблицы:</label>
+			<label index="tx_realurl_uniqalias.value_alias">Значение псевдонима:</label>
+			<label index="tx_realurl_uniqalias.value_id">ID значения:</label>
+			<label index="tx_realurl_uniqalias.field_alias">Псевдоним поля:</label>
+			<label index="tx_realurl_uniqalias.field_id">ID поля:</label>
+			<label index="tx_realurl_urldata">Данные URL RealURL</label>
+			<label index="tx_realurl_urldata.page_id">ID страницы:</label>
+			<label index="tx_realurl_urldata.rootpage_id">ID страницы Root:</label>
+			<label index="tx_realurl_urldata.original_url">Исходный URL:</label>
+			<label index="tx_realurl_urldata.speaking_url">Понятный URL:</label>
+			<label index="tx_realurl_urldata.request_variables">Запросить переменные:</label>
+			<label index="tx_realurl_urldata.expire">Истекает:</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

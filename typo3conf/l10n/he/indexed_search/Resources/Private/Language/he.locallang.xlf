@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T03:11:04Z" product-name="indexed_search">
+		<header/>
+		<body>
+			<trans-unit id="defaultOperands.0" approved="yes">
+				<source>All words (AND)</source>
+				<target state="translated">כל המילים</target>
+			</trans-unit>
+			<trans-unit id="defaultOperands.1" approved="yes">
+				<source>Any words (OR)</source>
+				<target state="translated">כל מילה</target>
+			</trans-unit>
+			<trans-unit id="displayResults" approved="no">
+				<source>Displaying results &lt;strong&gt;%1$s to %2$s&lt;/strong&gt; out of &lt;strong&gt;%3$s&lt;/strong&gt;</source>
+				<target state="needs-translation">תוצאות &lt;strong&gt;%1$s עד %2$s&lt;/strong&gt; מסך הכל &lt;strong&gt;%3$s&lt;/strong&gt;</target>
+			</trans-unit>
+			<trans-unit id="displayResults.next" approved="yes">
+				<source>Next &gt;</source>
+				<target state="translated">הבא &gt;</target>
+			</trans-unit>
+			<trans-unit id="displayResults.page" approved="yes">
+				<source>Page</source>
+				<target state="translated">דף</target>
+			</trans-unit>
+			<trans-unit id="displayResults.previous" approved="yes">
+				<source>&lt; Previous</source>
+				<target state="translated">קודם &lt;</target>
+			</trans-unit>
+			<trans-unit id="form.addToSearch" approved="yes">
+				<source>Add to current search words</source>
+				<target state="translated">הוסף למילות חיפוש הנוכחים</target>
+			</trans-unit>
+			<trans-unit id="form.atATime" approved="yes">
+				<source>at a time</source>
+				<target state="translated">ביחד</target>
+			</trans-unit>
+			<trans-unit id="form.extResume" approved="yes">
+				<source>Extended resume</source>
+				<target state="translated">תקציר מורחב</target>
+			</trans-unit>
+			<trans-unit id="form.freeIndexUid" approved="yes">
+				<source>Category</source>
+				<target state="translated">קטגוריה</target>
+			</trans-unit>
+			<trans-unit id="form.fromSection" approved="yes">
+				<source>From section</source>
+				<target state="translated">ממדור</target>
+			</trans-unit>
+			<trans-unit id="form.legend" approved="yes">
+				<source>Search form</source>
+				<target state="translated">טופס חיפוש</target>
+			</trans-unit>
+			<trans-unit id="form.linkToAdvancedSearch" approved="yes">
+				<source>Advanced search</source>
+				<target state="translated">חיפוש מתקדם</target>
+			</trans-unit>
+			<trans-unit id="form.linkToRegularSearch" approved="yes">
+				<source>Regular search</source>
+				<target state="translated">חיפוש רגיל</target>
+			</trans-unit>
+			<trans-unit id="form.match" approved="yes">
+				<source>Match</source>
+				<target state="translated">התאמה</target>
+			</trans-unit>
+			<trans-unit id="form.orderBy" approved="yes">
+				<source>Order by</source>
+				<target state="translated">מיין לפי</target>
+			</trans-unit>
+			<trans-unit id="form.searchFor" approved="yes">
+				<source>Search for</source>
+				<target state="translated">חפש את</target>
+			</trans-unit>
+			<trans-unit id="form.searchIn" approved="yes">
+				<source>Search in</source>
+				<target state="translated">חפש ב</target>
+			</trans-unit>
+			<trans-unit id="form.style" approved="yes">
+				<source>Style</source>
+				<target state="translated">סיגנון</target>
+			</trans-unit>
+			<trans-unit id="form.submit" approved="yes">
+				<source>Search</source>
+				<target state="translated">חיפוש</target>
+			</trans-unit>
+			<trans-unit id="groupBy.flat" approved="yes">
+				<source>Flat list</source>
+				<target state="translated">רשימה שטוחה ( רגילה )</target>
+			</trans-unit>
+			<trans-unit id="groupBy.sections" approved="yes">
+				<source>Section hierarchy</source>
+				<target state="translated">עץ מדורים</target>
+			</trans-unit>
+			<trans-unit id="indexingConfigurationHeader.0" approved="yes">
+				<source>Website Pages</source>
+				<target state="translated">דפי האתר</target>
+			</trans-unit>
+			<trans-unit id="indexingConfigurationHeader.-1" approved="yes">
+				<source>Mixed categories</source>
+				<target state="translated">קטגוריות שונות</target>
+			</trans-unit>
+			<trans-unit id="indexingConfigurations.0" approved="yes">
+				<source>Pages</source>
+				<target state="translated">דפים</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="indexingConfigurations.-1" approved="yes">
+				<source>All, mixed</source>
+				<target state="translated">הכל, ללא סינון</target>
+			</trans-unit>
+			<trans-unit id="indexingConfigurations.-2" approved="yes">
+				<source>All, categorized</source>
+				<target state="translated">הכל לפי קטגוריות</target>
+			</trans-unit>
+			<trans-unit id="languageUids.0" approved="yes">
+				<source>Default</source>
+				<target state="translated">ברירת מחדל</target>
+			</trans-unit>
+			<trans-unit id="languageUids.-1" approved="yes">
+				<source>All languages</source>
+				<target state="translated">כל השפות</target>
+			</trans-unit>
+			<trans-unit id="localizedOperandAnd">
+				<source>AND</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="localizedOperandNot">
+				<source>NOT</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="localizedOperandOr">
+				<source>OR</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="mediaTypes.0" approved="yes">
+				<source>Internal pages</source>
+				<target state="translated">דפים פנימיים</target>
+			</trans-unit>
+			<trans-unit id="mediaTypes.-1" approved="yes">
+				<source>All media</source>
+				<target state="translated">כל מדיה</target>
+			</trans-unit>
+			<trans-unit id="mediaTypes.-2" approved="yes">
+				<source>All External</source>
+				<target state="translated">כל החיצוניים</target>
+			</trans-unit>
+			<trans-unit id="result.created" approved="no">
+				<source>Created</source>
+				<target state="needs-translation">נוצר:</target>
+			</trans-unit>
+			<trans-unit id="result.inNsection" approved="no">
+				<source>in %s section</source>
+				<target state="needs-translation">במדור %s:</target>
+			</trans-unit>
+			<trans-unit id="result.inNsections" approved="no">
+				<source>in %s sections</source>
+				<target state="needs-translation">ב%s מדורים:</target>
+			</trans-unit>
+			<trans-unit id="result.inSection" approved="yes">
+				<source>in the section</source>
+				<target state="translated">במדור זה</target>
+			</trans-unit>
+			<trans-unit id="result.memberGroups">
+				<source>Require membership of group numbers %s</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="result.modified" approved="no">
+				<source>Modified</source>
+				<target state="needs-translation">שינוי:</target>
+			</trans-unit>
+			<trans-unit id="result.noResult" approved="yes">
+				<source>No results found.</source>
+				<target state="translated">אין תוצאות.</target>
+			</trans-unit>
+			<trans-unit id="result.noResume" approved="yes">
+				<source>Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</source>
+				<target state="translated">הארה: אין אפשרות להציג צילום של הדף.</target>
+			</trans-unit>
+			<trans-unit id="result.otherMatching" approved="no">
+				<source>Other matching pages in the same document</source>
+				<target state="needs-translation">דפים אחרים באותו מסמך:</target>
+			</trans-unit>
+			<trans-unit id="result.otherPageAsWell" approved="yes">
+				<source>INFO: There was another page indexed as well. Probably indexed with another or no usergroup.</source>
+				<target state="translated">חשוב: קיימים דפים מאונדקסים ע"י משתמשים אחרים.</target>
+			</trans-unit>
+			<trans-unit id="result.page" approved="yes">
+				<source>page</source>
+				<target state="translated">דף</target>
+			</trans-unit>
+			<trans-unit id="result.pages" approved="yes">
+				<source>pages</source>
+				<target state="translated">דפים</target>
+			</trans-unit>
+			<trans-unit id="result.path" approved="no">
+				<source>Path</source>
+				<target state="needs-translation">נתיב:</target>
+			</trans-unit>
+			<trans-unit id="result.ratingMatches" approved="yes">
+				<source>matches</source>
+				<target state="translated">התאמות</target>
+			</trans-unit>
+			<trans-unit id="result.size" approved="no">
+				<source>Size</source>
+				<target state="needs-translation">גודל:</target>
+			</trans-unit>
+			<trans-unit id="result.unnamedSection" approved="yes">
+				<source>Other</source>
+				<target state="translated">אחר</target>
+			</trans-unit>
+			<trans-unit id="rules.headline" approved="yes">
+				<source>Rules</source>
+				<target state="translated">חוקים</target>
+			</trans-unit>
+			<trans-unit id="rules.text" xml:space="preserve" approved="yes">
+				<source>Only words with 2 or more characters are accepted&lt;br /&gt;
+Max 200 chars total&lt;br /&gt;
+Space is used to split words, "" can be used to search for a whole string (not indexed search then)&lt;br /&gt;
+AND, OR and NOT are prefix words, overruling the default operator&lt;br /&gt;
++/|/- equals AND, OR and NOT as operators.&lt;br /&gt;
+All search words are converted to lowercase.
+</source>
+			<target state="translated">מילים באורך 2 עד 200 תוים &lt;br/&gt;
+יש להכניס רווח להפרדת מילים, גירשיים כדי לחפש משפט שלם &lt;br /&gt;
+חלקים AND, OR, NOT מחליפים משמאות של חיפוש , אפשר גם להשתמש בסימנים "+", " | " , ומינוס.
+</target></trans-unit>
+			<trans-unit id="searchFor" approved="yes">
+				<source>Search for</source>
+				<target state="translated">חפשס לפי</target>
+			</trans-unit>
+			<trans-unit id="searchFor.and" approved="yes">
+				<source>and</source>
+				<target state="translated">ו</target>
+			</trans-unit>
+			<trans-unit id="searchFor.andnot" approved="yes">
+				<source>but not</source>
+				<target state="translated">אבל לא</target>
+			</trans-unit>
+			<trans-unit id="searchFor.or" approved="yes">
+				<source>or</source>
+				<target state="translated">או</target>
+			</trans-unit>
+			<trans-unit id="searchTypes.0" approved="yes">
+				<source>Distinct word</source>
+				<target state="translated">מילה נפרדת</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="searchTypes.1" approved="yes">
+				<source>Part of word</source>
+				<target state="translated">חלק של מילה</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="searchTypes.10" approved="yes">
+				<source>Sounds like</source>
+				<target state="translated">נישמע דומה ל</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="searchTypes.2" approved="yes">
+				<source>First part of word</source>
+				<target state="translated">התחלת של מילה</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="searchTypes.20" approved="yes">
+				<source>Sentence</source>
+				<target state="translated">משפט</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="searchTypes.3" approved="yes">
+				<source>Last part of word</source>
+				<target state="translated">סיום של מילה</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="sections.0" approved="yes">
+				<source>Whole site</source>
+				<target state="translated">כל האתר</target>
+			</trans-unit>
+			<trans-unit id="sections.-1" approved="yes">
+				<source>Only this page</source>
+				<target state="translated">רק דף זה</target>
+			</trans-unit>
+			<trans-unit id="sections.-2" approved="yes">
+				<source>Top + level 1</source>
+				<target state="translated">ראשי+רמה 1</target>
+			</trans-unit>
+			<trans-unit id="sections.-3" approved="yes">
+				<source>Level 2 and out</source>
+				<target state="translated">רמה 2 ומלה</target>
+			</trans-unit>
+			<trans-unit id="sections.rootLevel1" approved="no">
+				<source>Level 1</source>
+				<target state="needs-translation">רמה 1:</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="sections.rootLevel1All" approved="yes">
+				<source>All pages on level 1</source>
+				<target state="translated">כל הדפים ברמה 1</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="sections.rootLevel2" approved="no">
+				<source>- Level 2</source>
+				<target state="needs-translation">- רמה 2:</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="sections.rootLevel2All" approved="yes">
+				<source>- All pages on level 2</source>
+				<target state="translated">- כל הדפים ברמה 2</target>
+				<note>100% 100%</note>
+			</trans-unit>
+			<trans-unit id="sortOrders.ascending" approved="yes">
+				<source>Lowest first</source>
+				<target state="translated">קודם זותרים</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.crdate" approved="yes">
+				<source>Creation date</source>
+				<target state="translated">תאריך יצירה</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.descending" approved="yes">
+				<source>Highest first</source>
+				<target state="translated">גבועים יותר ראשוניים</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.mtime" approved="yes">
+				<source>Date Modified</source>
+				<target state="translated">תאריך שינוי</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.rank_count" approved="yes">
+				<source>Number of words</source>
+				<target state="translated">מספר מילים</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.rank_first" approved="yes">
+				<source>Close to top</source>
+				<target state="translated">קרוב להתחלה</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.rank_flag" approved="yes">
+				<source>Weight/Frequency</source>
+				<target state="translated">משכל/תדירות</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.rank_freq" approved="yes">
+				<source>Frequency</source>
+				<target state="translated">תדירות</target>
+			</trans-unit>
+			<trans-unit id="sortOrders.title" approved="yes">
+				<source>Document title</source>
+				<target state="translated">כותרת המסמך</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

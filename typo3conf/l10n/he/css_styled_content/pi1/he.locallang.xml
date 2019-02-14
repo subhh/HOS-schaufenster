@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="eIcon.bodytext">ערוך טקסט</label>
+			<label index="eIcon.bullets">ערוך רשימה</label>
+			<label index="eIcon.caption">ערוך הסבר התמונה</label>
+			<label index="eIcon.caption_position"/>
+			<label index="eIcon.filelist">ערוך רשימת קבצים</label>
+			<label index="eIcon.form">ערוך טופס שליחת דואר</label>
+			<label index="eIcon.header">ערוך כותרת</label>
+			<label index="eIcon.html">ערוך תוכן HTML</label>
+			<label index="eIcon.images">ערוך תמונות</label>
+			<label index="eIcon.login">ערוך אלמנט כניסה</label>
+			<label index="eIcon.menuSitemap">ערוך תפריט / מפת אתר</label>
+			<label index="eIcon.multimedia">ערוך תוכן מולטימדיה</label>
+			<label index="eIcon.page">דף:</label>
+			<label index="eIcon.plugin">שנה או קנפג plugin</label>
+			<label index="eIcon.recordList">ערוך רשימת</label>
+			<label index="eIcon.search">ערוך אלמנט חיפוש</label>
+			<label index="eIcon.subheader">ערוך תת-כותרת</label>
+			<label index="eIcon.table">ערוך טבלה</label>
+			<label index="label.toTop">למעלה</label>
+			<label index="login.login">כניסה</label>
+			<label index="login.logout">יציאה</label>
+			<label index="login.password">סיסמה:</label>
+			<label index="login.username">שם משתמש:</label>
+			<label index="menu.bypassNavigation"/>
+			<label index="search.emptySearch">חיפוש החזיר תוצאות ריקות!</label>
+			<label index="search.headersKeywords">כותרות ומילות מפתח</label>
+			<label index="search.pageContent">תכנים</label>
+			<label index="search.resultRange">תוצאות חיפוש: ###RANGELOW###-###RANGEHIGH### מסה"כ ###TOTAL###</label>
+			<label index="search.searchButton">חפש!</label>
+			<label index="search.searchIn">חיפוש ב:</label>
+			<label index="search.searchResultNext">הבא</label>
+			<label index="search.searchResultPrev">הקודם</label>
+			<label index="search.searchWord">חפש מילים:</label>
+			<label index="uploads.icon"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

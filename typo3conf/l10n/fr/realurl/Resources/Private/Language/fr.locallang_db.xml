@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="pages.tx_realurl_pathsegment">Segment de l'adresse (URL) réécrite</label>
+			<label index="pages.tx_realurl_exclude">Exclure de la réécriture d'URL</label>
+			<label index="pages.tx_realurl_path_override">Remplacer le chemin de toute la page</label>
+			<label index="pages.palette_title">Réécriture d'url</label>
+			<label index="tx_realurl_pathdata"/>
+			<label index="tx_realurl_pathdata.page_id"/>
+			<label index="tx_realurl_pathdata.rootpage_id"/>
+			<label index="tx_realurl_pathdata.language_id"/>
+			<label index="tx_realurl_pathdata.mpvar"/>
+			<label index="tx_realurl_pathdata.pagepath"/>
+			<label index="tx_realurl_pathdata.expire"/>
+			<label index="tx_realurl_uniqalias"/>
+			<label index="tx_realurl_uniqalias.expire"/>
+			<label index="tx_realurl_uniqalias.lang"/>
+			<label index="tx_realurl_uniqalias.tablename"/>
+			<label index="tx_realurl_uniqalias.value_alias"/>
+			<label index="tx_realurl_uniqalias.value_id"/>
+			<label index="tx_realurl_uniqalias.field_alias"/>
+			<label index="tx_realurl_uniqalias.field_id"/>
+			<label index="tx_realurl_urldata"/>
+			<label index="tx_realurl_urldata.page_id"/>
+			<label index="tx_realurl_urldata.rootpage_id"/>
+			<label index="tx_realurl_urldata.original_url"/>
+			<label index="tx_realurl_urldata.speaking_url">Réécriture d'url</label>
+			<label index="tx_realurl_urldata.request_variables"/>
+			<label index="tx_realurl_urldata.expire"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

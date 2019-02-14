@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="EN" datatype="plaintext" original="messages" date="2016-11-26T02:35:32Z" product-name="realurl" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="tx_realurl_nocache.description" xml:space="preserve" approved="yes">
+        <source>Disables RealURL encode and decode cache for this page only</source>
+      <target state="translated">Désactiver l'encodage / décodage de Realurl pour cette page uniquement</target></trans-unit>
+      <trans-unit id="tx_realurl_pathsegment.description" xml:space="preserve" approved="yes">
+        <source>URL path segment for this. Only valid URL characters are allowed, namely: latin letters, numbers, underscore and/or minus character.</source>
+      <target state="translated">Segment d'URL pour cela. Seulement des caractères valides pour les URLS sont autorisés : lettres sans accent / caractères spéciaux, nombres, tiret du bas et casse en minuscule uniquement.</target></trans-unit>
+      <trans-unit id="tx_realurl_exclude.description" xml:space="preserve" approved="yes">
+        <source>Excludes this page from the speaking URL. Note that this works only if this page is not the target page of the reader.</source>
+      <target state="translated">Exclure cette page de la réécriture d'URL. Noter que cela ne fonctionne que si la page n'est pas la cible de l'internaute.</target></trans-unit>
+      <trans-unit id="tx_realurl_pathoverride.description" xml:space="preserve" approved="yes">
+        <source>If checked, the speaking path segment field must contain the whole path to the page (excluding pre- and postVars). This gives an option to override the path completely. Without this option the field defines only a single URL segment for the current page. When overriding the whole path, the path MUST NOT start or end with a slash!</source>
+      <target state="translated">Si coché, le champ de segment d'URL contiendra le chemin d'accès complet à la page (hors pré- et postVars). Cela donne une option pour remplacer complètement le segment d'URL. Sans cette option, le champ définit seulement un segment d' URL unique pour le segment de la page en cours. Lors de la substitution de la totalité du chemin, le chemin ne doit pas commencer ou se terminer par une barre oblique (/) !</target></trans-unit>
+    </body>
+  </file>
+</xliff>

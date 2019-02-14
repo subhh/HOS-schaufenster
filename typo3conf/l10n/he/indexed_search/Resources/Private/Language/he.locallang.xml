@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="defaultOperands.0">כל המילים</label>
+			<label index="defaultOperands.1">כל מילה</label>
+			<label index="displayResults">תוצאות &lt;strong&gt;%1$s עד %2$s&lt;/strong&gt; מסך הכל &lt;strong&gt;%3$s&lt;/strong&gt;</label>
+			<label index="displayResults.next">הבא &gt;</label>
+			<label index="displayResults.page">דף</label>
+			<label index="displayResults.previous">קודם &lt;</label>
+			<label index="form.addToSearch">הוסף למילות חיפוש הנוכחים</label>
+			<label index="form.atATime">ביחד</label>
+			<label index="form.extResume">תקציר מורחב</label>
+			<label index="form.freeIndexUid">קטגוריה</label>
+			<label index="form.fromSection">ממדור</label>
+			<label index="form.legend">טופס חיפוש</label>
+			<label index="form.linkToAdvancedSearch">חיפוש מתקדם</label>
+			<label index="form.linkToRegularSearch">חיפוש רגיל</label>
+			<label index="form.match">התאמה</label>
+			<label index="form.orderBy">מיין לפי</label>
+			<label index="form.searchFor">חפש את</label>
+			<label index="form.searchIn">חפש ב</label>
+			<label index="form.style">סיגנון</label>
+			<label index="form.submit">חיפוש</label>
+			<label index="groupBy.flat">רשימה שטוחה ( רגילה )</label>
+			<label index="groupBy.sections">עץ מדורים</label>
+			<label index="indexingConfigurationHeader.0">דפי האתר</label>
+			<label index="indexingConfigurationHeader.-1">קטגוריות שונות</label>
+			<label index="indexingConfigurations.0">דפים</label>
+			<label index="indexingConfigurations.-1">הכל, ללא סינון</label>
+			<label index="indexingConfigurations.-2">הכל לפי קטגוריות</label>
+			<label index="languageUids.0">ברירת מחדל</label>
+			<label index="languageUids.-1">כל השפות</label>
+			<label index="localizedOperandAnd"/>
+			<label index="localizedOperandNot"/>
+			<label index="localizedOperandOr"/>
+			<label index="mediaTypes.0">דפים פנימיים</label>
+			<label index="mediaTypes.-1">כל מדיה</label>
+			<label index="mediaTypes.-2">כל החיצוניים</label>
+			<label index="result.created">נוצר:</label>
+			<label index="result.inNsection">במדור %s:</label>
+			<label index="result.inNsections">ב%s מדורים:</label>
+			<label index="result.inSection">במדור זה</label>
+			<label index="result.memberGroups"/>
+			<label index="result.modified">שינוי:</label>
+			<label index="result.noResult">אין תוצאות.</label>
+			<label index="result.noResume">הארה: אין אפשרות להציג צילום של הדף.</label>
+			<label index="result.otherMatching">דפים אחרים באותו מסמך:</label>
+			<label index="result.otherPageAsWell">חשוב: קיימים דפים מאונדקסים ע"י משתמשים אחרים.</label>
+			<label index="result.page">דף</label>
+			<label index="result.pages">דפים</label>
+			<label index="result.path">נתיב:</label>
+			<label index="result.ratingMatches">התאמות</label>
+			<label index="result.size">גודל:</label>
+			<label index="result.unnamedSection">אחר</label>
+			<label index="rules.headline">חוקים</label>
+			<label index="rules.text">מילים באורך 2 עד 200 תוים &lt;br/&gt;
+יש להכניס רווח להפרדת מילים, גירשיים כדי לחפש משפט שלם &lt;br /&gt;
+חלקים AND, OR, NOT מחליפים משמאות של חיפוש , אפשר גם להשתמש בסימנים "+", " | " , ומינוס.
+</label>
+			<label index="searchFor">חפשס לפי</label>
+			<label index="searchFor.and">ו</label>
+			<label index="searchFor.andnot">אבל לא</label>
+			<label index="searchFor.or">או</label>
+			<label index="searchTypes.0">מילה נפרדת</label>
+			<label index="searchTypes.1">חלק של מילה</label>
+			<label index="searchTypes.10">נישמע דומה ל</label>
+			<label index="searchTypes.2">התחלת של מילה</label>
+			<label index="searchTypes.20">משפט</label>
+			<label index="searchTypes.3">סיום של מילה</label>
+			<label index="sections.0">כל האתר</label>
+			<label index="sections.-1">רק דף זה</label>
+			<label index="sections.-2">ראשי+רמה 1</label>
+			<label index="sections.-3">רמה 2 ומלה</label>
+			<label index="sections.rootLevel1">רמה 1:</label>
+			<label index="sections.rootLevel1All">כל הדפים ברמה 1</label>
+			<label index="sections.rootLevel2">- רמה 2:</label>
+			<label index="sections.rootLevel2All">- כל הדפים ברמה 2</label>
+			<label index="sortOrders.ascending">קודם זותרים</label>
+			<label index="sortOrders.crdate">תאריך יצירה</label>
+			<label index="sortOrders.descending">גבועים יותר ראשוניים</label>
+			<label index="sortOrders.mtime">תאריך שינוי</label>
+			<label index="sortOrders.rank_count">מספר מילים</label>
+			<label index="sortOrders.rank_first">קרוב להתחלה</label>
+			<label index="sortOrders.rank_flag">משכל/תדירות</label>
+			<label index="sortOrders.rank_freq">תדירות</label>
+			<label index="sortOrders.title">כותרת המסמך</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

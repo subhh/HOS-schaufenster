@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:25Z" product-name="realurl" target-language="fr">
+		<header/>
+		<body>
+			<trans-unit id="mlang_tabs_tab" approved="yes">
+				<source>Speaking URLs</source>
+			<target state="translated">URLs réécrites</target></trans-unit>
+			<trans-unit id="mlang_labels_tablabel" approved="yes">
+				<source>Speaking URL management</source>
+			<target state="translated">Gestion de la réécriture d'URL</target></trans-unit>
+			<trans-unit id="mlang_labels_tabdescr" approved="yes">
+				<source>Management for speaking URLs in TYPO3 CMS</source>
+			<target state="translated">Gestion de la réécriture d'URL dans le CMS TYPO3</target></trans-unit>
+			<trans-unit id="module.index" approved="yes">
+				<source>Overview</source>
+			<target state="translated">Vue synthétique</target></trans-unit>
+			<trans-unit id="module.index.intro_functions" approved="yes">
+				<source>This is a RealURL administration module. It provides functions that you can select from the selector at the top. Here is the overview of the provided functions.</source>
+			<target state="translated">Module d'administration de RealUrl. Ce module fournit des fonctions disponibles dans le menu déroulant en haut de la page.</target></trans-unit>
+			<trans-unit id="module.aliases" approved="yes">
+				<source>Aliases</source>
+			<target state="translated">Alias</target></trans-unit>
+			<trans-unit id="module.aliases" approved="yes">
+				<source>Aliases</source>
+			<target state="translated">Alias</target></trans-unit>
+			<trans-unit id="module.aliases.intro" approved="yes">
+				<source>This module manages aliases that are created for items like news or addresses or any other custom types of data.</source>
+			<target state="translated">Ce module gère les alias créés pour des enregistrements comme les actualités, adresses ou tout autre type particulier de données.</target></trans-unit>
+			<trans-unit id="module.aliases.not_available" approved="yes">
+				<source>Currently there are no aliases available.</source>
+			<target state="translated">Pas d'alias disponible pour le moment.</target></trans-unit>
+			<trans-unit id="module.aliases.not_found" approved="yes">
+				<source>The sellected alias is no longer available.</source>
+			<target state="translated">L'alias sélectionné n'est plus disponible.</target></trans-unit>
+			<trans-unit id="module.aliases.available" approved="yes">
+				<source>Available aliases</source>
+			<target state="translated">Alias disponibles</target></trans-unit>
+			<trans-unit id="module.aliases.available.select" approved="yes">
+				<source>Select alias type:</source>
+			<target state="translated">Sélectionner le type d'alias :</target></trans-unit>
+			<trans-unit id="module.aliases.deleted" approved="yes">
+				<source>The alias was deleted.</source>
+			<target state="translated">L'alias a été supprimé.</target></trans-unit>
+			<trans-unit id="module.aliases.all_deleted" approved="no">
+				<source>Aliases were deleted.</source>
+			<target state="needs-translation">Les alias ont été supprimés.</target></trans-unit>
+			<trans-unit id="module.aliases.edit.submit" approved="yes">
+				<source>Save</source>
+			<target state="translated">Enregistrer</target></trans-unit>
+			<trans-unit id="module.aliases.edit.back" approved="yes">
+				<source>Cancel</source>
+			<target state="translated">Annuler</target></trans-unit>
+			<trans-unit id="module.aliases.edit.alias_value" approved="yes">
+				<source>Alias value:</source>
+			<target state="translated">Valeur de l'alias :</target></trans-unit>
+			<trans-unit id="module.aliases.edit.alias_info.tablename" approved="yes">
+				<source>Table name:</source>
+			<target state="translated">Nom de la table :</target></trans-unit>
+			<trans-unit id="module.aliases.edit.alias_info.uid" approved="yes">
+				<source>Record uid:</source>
+			<target state="translated">Enregistrement uid :</target></trans-unit>
+			<trans-unit id="module.aliases.edit.alias_info.field_value" approved="yes">
+				<source>Field value:</source>
+			<target state="translated">Valeur de champ :</target></trans-unit>
+			<trans-unit id="module.aliases.edit.saved" approved="yes">
+				<source>Alias successfully updated.</source>
+			<target state="translated">L'alias a été mis à jour.</target></trans-unit>
+			<trans-unit id="module.aliases.edit.error.already_exists" approved="yes">
+				<source>Such alias already exists for another record in this language.</source>
+			<target state="translated">Cet alias existe déjà pour un autre enregistrement dans cette langue.</target></trans-unit>
+			<trans-unit id="module.aliases.edit.error.bad_alias_value" approved="yes">
+				<source>Alias value may only contain the following characters: %s</source>
+			<target state="translated">La valeur de l'alias ne peut contenir que les caractères suivant : %s</target></trans-unit>
+			<trans-unit id="module.aliases.search.for" approved="yes">
+				<source>Search alias value for:</source>
+			<target state="translated">Chercher la valeur de l'alias pour :</target></trans-unit>
+			<trans-unit id="module.aliases.search.submit" approved="yes">
+				<source>Submit</source>
+			<target state="translated">Envoyer</target></trans-unit>
+			<trans-unit id="module.aliases.search.reset" approved="yes">
+				<source>Reset</source>
+			<target state="translated">Réinitialiser</target></trans-unit>
+			<trans-unit id="module.url_cache" approved="no">
+				<source>URL Data</source>
+			<target state="needs-translation">Cache URL</target></trans-unit>
+			<trans-unit id="module.url_cache.intro" approved="no">
+				<source><![CDATA[This module allows you to view and remove URLs for pages. URL data contains complete URLs consisting from page path and any encoded parameters. Note that it is <strong>extremely dangerous</strong> to manipulate these entries manually! Your installation can be broken if you do so.]]></source>
+			<target state="needs-translation">Ce module vous permet de rechercher, modifier et supprimer les entrées de cache pour les URL. Ce cache contient les URL complètes composées du chemin de la page et des paramètres encodés.</target></trans-unit>
+			<trans-unit id="module.path_cache" approved="no">
+				<source>Path Data</source>
+			<target state="needs-translation">Chemin du cache</target></trans-unit>
+			<trans-unit id="module.path_cache.intro">
+				<source><![CDATA[This module allows you to view and remove page path data. Note that it is <strong>extremely dangerous</strong> to manipulate these entries manually! Your installation can be broken if you do so.]]></source>
+			<target></target></trans-unit>
+			<trans-unit id="module.configuration" approved="yes">
+				<source>Configuration</source>
+			<target state="translated">Configuration</target></trans-unit>
+			<trans-unit id="module.configuration.intro">
+				<source><![CDATA[This module will show you RealURL configuration as RealURL will see it (including default values).</p><p><strong>Note:</strong> your TYPO3 solution provider may use its own ways to configure RealURL at runtime. If that's the case, this module may not show confguration accurately. If you suspect that this is the case, contact your TYPO3 solution provider.]]></source>
+			<target></target></trans-unit>
+			<trans-unit id="module.dateTimeFormat" approved="yes">
+				<source>d.m.Y H:i</source>
+			<target state="translated">d.m.Y H:i</target></trans-unit>
+			<trans-unit id="module.tableHeader.alias" approved="yes">
+				<source>Alias</source>
+			<target state="translated">Alias</target></trans-unit>
+			<trans-unit id="module.tableHeader.id" approved="yes">
+				<source>Id</source>
+			<target state="translated">Id</target></trans-unit>
+			<trans-unit id="module.tableHeader.language" approved="yes">
+				<source>Language</source>
+			<target state="translated">Langue</target></trans-unit>
+			<trans-unit id="module.tableHeader.expire" approved="yes">
+				<source>Expires</source>
+			<target state="translated">Expire</target></trans-unit>
+			<trans-unit id="viewhelper.languageFromId.defaultLanguage" approved="yes">
+				<source>Default</source>
+			<target state="translated">Par défaut</target></trans-unit>
+			<trans-unit id="module.deleteAliasesOfType" approved="yes">
+				<source>Delete all aliases of this type</source>
+			<target state="translated">Supprimer tous les alias de ce type</target></trans-unit>
+			<trans-unit id="module.js.deleteSingleAlias" approved="yes">
+				<source>Do you want to delete this alias?</source>
+			<target state="translated">Voulez-vous supprimer cet alias ?</target></trans-unit>
+			<trans-unit id="module.js.yes" approved="yes">
+				<source>Yes</source>
+			<target state="translated">Oui</target></trans-unit>
+			<trans-unit id="module.js.no" approved="yes">
+				<source>No</source>
+			<target state="translated">Non</target></trans-unit>
+			<trans-unit id="module.js.confirmTitle" approved="yes">
+				<source>Confirm</source>
+			<target state="translated">Confirmer</target></trans-unit>
+			<trans-unit id="module.js.deleteAliases" approved="yes">
+				<source>Do you want to delete all aliases of this type?</source>
+			<target state="translated">Voulez-vous supprimer tous les alias de ce type ?</target></trans-unit>
+			<trans-unit id="module.tableHeader.speaking_url" approved="yes">
+				<source>Speaking URL</source>
+			<target state="translated">Réécriture d'URL</target></trans-unit>
+			<trans-unit id="module.tableHeader.original_url" approved="yes">
+				<source>Original URL</source>
+			<target state="translated">URI d'origine</target></trans-unit>
+			<trans-unit id="module.tableHeader.rootpage_id" approved="yes">
+				<source>Root page id</source>
+			<target state="translated">Id de la page racine</target></trans-unit>
+			<trans-unit id="module.tableHeader.page_path" approved="yes">
+				<source>Page path</source>
+			<target state="translated">Chemin de la page</target></trans-unit>
+			<trans-unit id="module.tableHeader.mp_var" approved="no">
+				<source>Mount point</source>
+			<target state="needs-translation">Point de montage</target></trans-unit>
+			<trans-unit id="module.js.deleteSingleCacheEntry" approved="no">
+				<source>Do you want to delete this entry? This can be harmful for your installation!</source>
+			<target state="needs-translation">Voulez-vous supprimer cette entrée du cache ?</target></trans-unit>
+			<trans-unit id="module.js.deleteCacheEntries" approved="no">
+				<source>Do you want to delete all entries for this page? This can be harmful for your installation!</source>
+			<target state="needs-translation">Voulez-vous supprimer tous les enregistrements de cache de cette page ?</target></trans-unit>
+			<trans-unit id="module.deleteCacheEntriesForPage" approved="no">
+				<source>Delete all entries for this page (harmful!)</source>
+			<target state="needs-translation">Supprimer tous les enregistrements de cache pour cette page</target></trans-unit>
+			<trans-unit id="module.flushCache" approved="no">
+				<source>Flush all entries (harmful!)</source>
+			<target state="needs-translation">Purger toutes les entrées</target></trans-unit>
+			<trans-unit id="module.js.flushCache" approved="no">
+				<source>Do you want to remove all entries? This WILL cause performance issues with the web site and can make some pages inaccessible!</source>
+			<target state="needs-translation">Voulez-vous supprimer tous les enregistrements en cache ? Ceci causera des soucis de performance avec le site!</target></trans-unit>
+			<trans-unit id="module.url_cache.entry_deleted" approved="no">
+				<source>Entry was removed.</source>
+			<target state="needs-translation">L'entrée du cache a été supprimée.</target></trans-unit>
+			<trans-unit id="module.url_cache.all_entries_deleted" approved="yes">
+				<source>All entries for this page were removed.</source>
+			<target state="translated">Tous les enregistrements pour cette page ont été supprimés.</target></trans-unit>
+			<trans-unit id="module.url_cache.flushed" approved="yes">
+				<source>All cache entries were removed.</source>
+			<target state="translated">Toutes les entrées de cache ont été supprimées.</target></trans-unit>
+			<trans-unit id="module.path_cache.entry_deleted" approved="no">
+				<source>Entry was removed.</source>
+			<target state="needs-translation">L'entrée du cache a été supprimée.</target></trans-unit>
+			<trans-unit id="module.url_cache.duplicate_url">
+				<source>URL conflict detected: '%s' is also used on page(s): %s</source>
+			<target></target></trans-unit>
+			<trans-unit id="module.path_cache.duplicate_path">
+				<source>Path conflict detected: '%s' is also used on page(s): %s</source>
+			<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="change_password">שנה סיסמא</label>
+			<label index="cookie_warning">אזהרה: ישנה אפשרות שקוקיז לא מופעלים בדפדפן שלך! אם פרטי הכניסה נעלמים בקליק הבא זאת הסיבה וכדאי שתפעיל את הקוקיז (או תאפשר קבלת קוקיז מאתר זה) מיד!</label>
+			<label index="ll_change_password_done_message">סיסמתך נשמרה. אתה יכול כעת להכנס עם הסיסמא החדשה.</label>
+			<label index="ll_change_password_header">שנה סיסמא</label>
+			<label index="ll_change_password_message">אנא הכנס את הסיסמא החדשה פעמיים. אורך מינימאלי של סיסמה הוא %s תווים.</label>
+			<label index="ll_change_password_nolinkprefix_message">שגיאה: אין תחילית עבור הקישור. אנא קבע אחד מהתחיליות הבאות בתבנית ה-typoscript: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRelPrefix = http://yourdomain/</label>
+			<label index="ll_change_password_notequal_message">הסיסמאות שונות, אנא הכנס את הסיסמא החדשה. אורך מינימאלי של סיסמא הוא %s תווים.</label>
+			<label index="ll_change_password_notvalid_message">הקישור עליו לחצת אינו תקין. אנא חזור על תהליך הסיסמא שנשכחה.</label>
+			<label index="ll_change_password_tooshort_message">הסיסמה קצרה מדי. אנא הכנס את הסיסמאות החדשות פעמיים. אורך מינימאלי של סיסמא הוא %s תווים.</label>
+			<label index="ll_enter_your_data"/>
+			<label index="ll_error_header">כניסה שגויה</label>
+			<label index="ll_error_message">אירעה טעות בכניסה. ככל הנראה לא הכנסת את שם המשתמש או הסיסמא הנכונים.
+ שים לב שהפרטים מוכנסים באופן מדויק, כולל אותיות גדולות/קטנות.
+אפשרות נוספת היא שהדפדפן שלך לא מפעיל קוקיז. </label>
+			<label index="ll_forgot_email_nopassword"/>
+			<label index="ll_forgot_email_password">פרטי התחברות
+שלום  %s
+
+שם משתמש שלך: "%s"
+סיסמה שלך: "%s"</label>
+			<label index="ll_forgot_header">שכחתם סיסמה?</label>
+			<label index="ll_forgot_header_backToLogin"/>
+			<label index="ll_forgot_message"/>
+			<label index="ll_forgot_message_emailSent"/>
+			<label index="ll_forgot_reset_message"/>
+			<label index="ll_forgot_reset_message_emailSent"/>
+			<label index="ll_forgot_reset_message_error"/>
+			<label index="ll_forgot_validate_reset_password"/>
+			<label index="ll_logout_header">יצאת מהאתר.</label>
+			<label index="ll_logout_message">המשתמש יצא מזמן מאתר זה. אתה יכול להכנס שוב או כמשתמש אחר באמצעות הטופס שלהלן.</label>
+			<label index="ll_status_header">מצב נוכחי</label>
+			<label index="ll_status_message">זהו המצב הנוכחי שלך:</label>
+			<label index="ll_success_header">כניסה מוצלחת</label>
+			<label index="ll_success_message">כעת נכנסת בתור '###USER###'</label>
+			<label index="ll_welcome_header">התחברות משתמש</label>
+			<label index="ll_welcome_message">הכנס שם משתמש וסיסמא כאן כדי להכנס לאתר</label>
+			<label index="login">כניסה</label>
+			<label index="logout">יציאה</label>
+			<label index="newpassword_label1">הכנס סיסמה חדשה</label>
+			<label index="newpassword_label2">הכנס את הסיסמה שנית</label>
+			<label index="noValidRedirectUrl"/>
+			<label index="password">סיסמא:</label>
+			<label index="permalogin">השאר רשום:</label>
+			<label index="reset_password">אפס סיסמא</label>
+			<label index="send_password">שלח סיסמא</label>
+			<label index="username">שם משתמש:</label>
+			<label index="xssAttackDetected"/>
+			<label index="your_email">דוא"ל שלך:</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">URLs réécrites</label>
+			<label index="mlang_labels_tablabel">Gestion de la réécriture d'URL</label>
+			<label index="mlang_labels_tabdescr">Gestion de la réécriture d'URL dans le CMS TYPO3</label>
+			<label index="module.index">Vue synthétique</label>
+			<label index="module.index.intro_functions">Module d'administration de RealUrl. Ce module fournit des fonctions disponibles dans le menu déroulant en haut de la page.</label>
+			<label index="module.aliases">Alias</label>
+			<label index="module.aliases">Alias</label>
+			<label index="module.aliases.intro">Ce module gère les alias créés pour des enregistrements comme les actualités, adresses ou tout autre type particulier de données.</label>
+			<label index="module.aliases.not_available">Pas d'alias disponible pour le moment.</label>
+			<label index="module.aliases.not_found">L'alias sélectionné n'est plus disponible.</label>
+			<label index="module.aliases.available">Alias disponibles</label>
+			<label index="module.aliases.available.select">Sélectionner le type d'alias :</label>
+			<label index="module.aliases.deleted">L'alias a été supprimé.</label>
+			<label index="module.aliases.all_deleted">Les alias ont été supprimés.</label>
+			<label index="module.aliases.edit.submit">Enregistrer</label>
+			<label index="module.aliases.edit.back">Annuler</label>
+			<label index="module.aliases.edit.alias_value">Valeur de l'alias :</label>
+			<label index="module.aliases.edit.alias_info.tablename">Nom de la table :</label>
+			<label index="module.aliases.edit.alias_info.uid">Enregistrement uid :</label>
+			<label index="module.aliases.edit.alias_info.field_value">Valeur de champ :</label>
+			<label index="module.aliases.edit.saved">L'alias a été mis à jour.</label>
+			<label index="module.aliases.edit.error.already_exists">Cet alias existe déjà pour un autre enregistrement dans cette langue.</label>
+			<label index="module.aliases.edit.error.bad_alias_value">La valeur de l'alias ne peut contenir que les caractères suivant : %s</label>
+			<label index="module.aliases.search.for">Chercher la valeur de l'alias pour :</label>
+			<label index="module.aliases.search.submit">Envoyer</label>
+			<label index="module.aliases.search.reset">Réinitialiser</label>
+			<label index="module.url_cache">Cache URL</label>
+			<label index="module.url_cache.intro">Ce module vous permet de rechercher, modifier et supprimer les entrées de cache pour les URL. Ce cache contient les URL complètes composées du chemin de la page et des paramètres encodés.</label>
+			<label index="module.path_cache">Chemin du cache</label>
+			<label index="module.path_cache.intro"/>
+			<label index="module.configuration">Configuration</label>
+			<label index="module.configuration.intro"/>
+			<label index="module.dateTimeFormat">d.m.Y H:i</label>
+			<label index="module.tableHeader.alias">Alias</label>
+			<label index="module.tableHeader.id">Id</label>
+			<label index="module.tableHeader.language">Langue</label>
+			<label index="module.tableHeader.expire">Expire</label>
+			<label index="viewhelper.languageFromId.defaultLanguage">Par défaut</label>
+			<label index="module.deleteAliasesOfType">Supprimer tous les alias de ce type</label>
+			<label index="module.js.deleteSingleAlias">Voulez-vous supprimer cet alias ?</label>
+			<label index="module.js.yes">Oui</label>
+			<label index="module.js.no">Non</label>
+			<label index="module.js.confirmTitle">Confirmer</label>
+			<label index="module.js.deleteAliases">Voulez-vous supprimer tous les alias de ce type ?</label>
+			<label index="module.tableHeader.speaking_url">Réécriture d'URL</label>
+			<label index="module.tableHeader.original_url">URI d'origine</label>
+			<label index="module.tableHeader.rootpage_id">Id de la page racine</label>
+			<label index="module.tableHeader.page_path">Chemin de la page</label>
+			<label index="module.tableHeader.mp_var">Point de montage</label>
+			<label index="module.js.deleteSingleCacheEntry">Voulez-vous supprimer cette entrée du cache ?</label>
+			<label index="module.js.deleteCacheEntries">Voulez-vous supprimer tous les enregistrements de cache de cette page ?</label>
+			<label index="module.deleteCacheEntriesForPage">Supprimer tous les enregistrements de cache pour cette page</label>
+			<label index="module.flushCache">Purger toutes les entrées</label>
+			<label index="module.js.flushCache">Voulez-vous supprimer tous les enregistrements en cache ? Ceci causera des soucis de performance avec le site!</label>
+			<label index="module.url_cache.entry_deleted">L'entrée du cache a été supprimée.</label>
+			<label index="module.url_cache.all_entries_deleted">Tous les enregistrements pour cette page ont été supprimés.</label>
+			<label index="module.url_cache.flushed">Toutes les entrées de cache ont été supprimées.</label>
+			<label index="module.path_cache.entry_deleted">L'entrée du cache a été supprimée.</label>
+			<label index="module.url_cache.duplicate_url"/>
+			<label index="module.path_cache.duplicate_path"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2019-01-18T06:37:06Z" product-name="scheduler">
+		<header/>
+		<body>
+			<trans-unit id="scheduler.config.enableBELog">
+				<source>Enable logging: When turned on, every start and end of every executed task is logged into TYPO3's BE Log. While this is convenient when setting things up, it may clutter the BE Log in the long run.</source>
+				<target/>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v9</note>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Activer la journalisation: Lorsqu'elle est activée, tous les début et fin de chaque tâche exécutée sont enregistrés dans le journal BE de TYPO3. Bien que cela soit pratique lors de la configuration, il peut encombrer le BE Log à long terme.</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="scheduler.config.listShowTaskDescriptionAsHover">
+				<source>Show description of tasks as hover: If disabled descriptions of tasks will be shown below the job-name in the scheduler-list.</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Afficher la description des tâches au survol: si désactivées, les descriptions des tâches seront affichées sous leur nom dans la liste du planificateur.</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="scheduler.config.maxLifetime">
+				<source>Maximum lifetime: Enter the maximum lifetime (in minutes) of a scheduler task. If a task is still running after that time, it will be dropped from the execution list (but not stopped).</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Durée de vie maximale: entrez la durée de vie maximale (en minutes) d'une tâche du planificateur. Si une tâche est toujours en cours d'exécution après ce temps, elle sera supprimée de la liste d'exécution (mais pas arrêtée).</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="scheduler.config.showSampleTasks">
+				<source>Enable sample tasks: When turned on, you can use the sample, test tasks provided by the scheduler. Before turning this off, make sure you don't have any of those sample tasks currently scheduled. You will also need to clear the configuration cache.</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Activer les tâches "exemples": lorsqu'elles sont activées, vous pouvez tester les tâches "exemples" fournies par le planificateur. Avant de désactiver cette fonction, assurez-vous que vous n'avez aucune de ces tâches "exemples" actuellement programmées. Vous devrez également effacer le cache de configuration.</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="scheduler.config.useAtdaemon">
+				<source>Use "at"-daemon: This allows automatic scheduling of the next execution of the scheduler. Your system must have the at daemon installed and configured for the user PHP runs with.</source>
+				<target/>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v9</note>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Utilisez "at"-daemon: cela permet l'ordonnancement automatique de la prochaine exécution du planificateur. Votre système doit avoir le démon installé et configuré pour l'utilisateur qui exécute PHP.</target>
+				</alt-trans>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

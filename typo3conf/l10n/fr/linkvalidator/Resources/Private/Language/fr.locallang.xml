@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="mod_linkvalidator">Validateur de lien</label>
+			<label index="tasks.error.invalidEmailTemplateFile">Le fichier du template d'email n'existe pas!</label>
+			<label index="tasks.error.invalidFromEmail"/>
+			<label index="tasks.error.invalidToEmail">Format invalide d'une ou plusieurs adresses courriel du / des destinataire(s)!</label>
+			<label index="tasks.error.invalidTSconfig"/>
+			<label index="tasks.error.noSubject">Aucun sujet pour la notification email</label>
+			<label index="tasks.validate.conf">Surcharger le TSconfig</label>
+			<label index="tasks.validate.depth">Profondeur</label>
+			<label index="tasks.validate.description">Recherchez des liens interrompus et enregistrez le résultat dans la table temporaire tx_linkvalidator_link afin de faciliter l'utilisation du module backend.</label>
+			<label index="tasks.validate.email">Envoi de l'email de rapport à</label>
+			<label index="tasks.validate.emailOnBrokenLinkOnly">Envoi d'un email uniquement lorsqu'un nouveau lien cassé est découvert</label>
+			<label index="tasks.validate.emailTemplateFile">Fichier template de l'email</label>
+			<label index="tasks.validate.invalidDepth">Il n'y a pas de profondeur de défini! Choisissez l'une des valeurs proposées!</label>
+			<label index="tasks.validate.invalidEmail">Format d'email invalide!</label>
+			<label index="tasks.validate.invalidPage">L'uid de la page est invalide! Entrez un uid de page valide!</label>
+			<label index="tasks.validate.name">Validateur de lien</label>
+			<label index="tasks.validate.page">Page racine (uid)</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

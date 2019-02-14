@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+			<label index="documentation.actions">Действия</label>
+			<label index="documentation.actions.download">Скачать документ</label>
+			<label index="documentation_manager">Управление документацией</label>
+			<label index="documentation.shortcut">Идентификатор расширения</label>
+			<label index="documentation.title">Заголовок</label>
+			<label index="documentation.type">Тип</label>
+			<label index="downloadDocumentation">Скачать документацию</label>
+			<label index="downloadFailed">Загрузка прервана</label>
+			<label index="downloadFailedDetails">Документация для "%s" не была загружена из-за следующей ошибки: %s (%d).</label>
+			<label index="downloadFailedNoArchive">На docs.typo3.org не найдено архива с обработанной документацией.</label>
+			<label index="downloadSucceeded">Обработанная документация успешно загружена.</label>
+			<label index="searchTemplate.submitButton">Готово</label>
+			<label index="showDocumentation">Показать документацию</label>
+			<label index="tx_documentation_domain_model_document">Документ</label>
+			<label index="tx_documentation_domain_model_document.extension_key">Идентификатор расширения</label>
+			<label index="tx_documentation_domain_model_documentformat">Формат документа</label>
+			<label index="tx_documentation_domain_model_documentformat.format">Формат</label>
+			<label index="tx_documentation_domain_model_documentformat.format.title">Показать документацию в виде %s</label>
+			<label index="tx_documentation_domain_model_documentformat.path">Путь</label>
+			<label index="tx_documentation_domain_model_document.package_key">Идентификатор пакета</label>
+			<label index="tx_documentation_domain_model_document.title">Заголовок</label>
+			<label index="tx_documentation_domain_model_documenttranslation">Переводы документа</label>
+			<label index="tx_documentation_domain_model_documenttranslation.actions">Действия</label>
+			<label index="tx_documentation_domain_model_documenttranslation.description">Описание</label>
+			<label index="tx_documentation_domain_model_documenttranslation.language">Язык</label>
+			<label index="tx_documentation_domain_model_document.translations">Переводы</label>
+			<label index="tx_documentation_domain_model_documenttranslation.title">Заголовок</label>
+			<label index="tx_documentation_domain_model_document.version">Версия</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

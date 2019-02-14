@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2019-01-17T06:50:25Z" product-name="sys_action">
+		<header/>
+		<body>
+			<trans-unit id="sys_action" approved="yes">
+				<source>Action</source>
+				<target state="translated">Action</target>
+			</trans-unit>
+			<trans-unit id="sys_action.assign_to_groups" approved="no">
+				<source>Assign action to groups</source>
+				<target state="needs-translation">Assigner une action à des groupes:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.hidden" approved="no">
+				<source>Deactivated</source>
+				<target state="needs-translation">Désactivé</target>
+				<alt-trans xml:space="preserve" origin="oktopuce">
+					<target>Désactivé :</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="sys_action.new_record.pid">
+				<source>Select the page for the new record to be stored</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.new_record.tablename">
+				<source>Record type</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.t1_allowed_groups" approved="no">
+				<source>Groups which may be assigned through the action</source>
+				<target state="needs-translation">Groupes qui pourraient être assignés à travers l'action:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t1_copy_of_user" approved="no">
+				<source>Template user</source>
+				<target state="needs-translation">Gabarit utilisateur:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t1_create_user_dir" approved="no">
+				<source>Create User Home Directory</source>
+				<target state="needs-translation">Créer un dossier de base utilisateur</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t1_userprefix" approved="no">
+				<source>User prefix</source>
+				<target state="needs-translation">Préfixe utilisateur:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t3_listPid" approved="no">
+				<source>List pid</source>
+				<target state="needs-translation">Pid de la liste:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t3_tables" approved="no">
+				<source>List only table</source>
+				<target state="needs-translation">Lister seulement la table:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.t4_recordsToEdit" approved="no">
+				<source>Records to edit</source>
+				<target state="needs-translation">Enregistrements à éditer:</target>
+			</trans-unit>
+			<trans-unit id="sys_action.tab.access">
+				<source>Access</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.tab.create_user.settings">
+				<source>Settings</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.tab.edit_records.settings">
+				<source>Settings</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.tab.new_record.settings">
+				<source>Settings</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.tab.record_list.settings">
+				<source>Settings</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sys_action.type.1" approved="yes">
+				<source>Create Backend User</source>
+				<target state="translated">Créer un utilisateur Backend</target>
+			</trans-unit>
+			<trans-unit id="sys_action.type.2" approved="yes">
+				<source>SQL query</source>
+				<target state="translated">Requête SQL</target>
+			</trans-unit>
+			<trans-unit id="sys_action.type.3" approved="yes">
+				<source>Record list</source>
+				<target state="translated">Liste des enregistrements</target>
+			</trans-unit>
+			<trans-unit id="sys_action.type.4" approved="yes">
+				<source>Edit records</source>
+				<target state="translated">Editer les enregistrements</target>
+			</trans-unit>
+			<trans-unit id="sys_action.type.5" approved="yes">
+				<source>New Record</source>
+				<target state="translated">Nouvel enregistrement</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

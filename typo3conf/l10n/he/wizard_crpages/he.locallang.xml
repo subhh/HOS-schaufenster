@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="wiz_crMany">צור דפים מרובים</label>
+			<label index="wiz_newPages">צור דפים חדשים</label>
+			<label index="wiz_newPages_addMoreLines">הוסף שורות</label>
+			<label index="wiz_newPages_create">הדפים נוצרו בהצלחה!</label>
+			<label index="wiz_newPages_currentMenu">מבנה דפים חדש</label>
+			<label index="wiz_newPages_errorMsg1">אינך רשאי לצור תת-דפים חדשים לדף זה!</label>
+			<label index="wiz_newPages_hidePages">הסתר דפים חדשים</label>
+			<label index="wiz_newPages_hidePagesInMenus">הסתר דפים חדשים בתפריטים</label>
+			<label index="wiz_newPages_lCreate">צור דפים</label>
+			<label index="wiz_newPages_lCreate_msg1">הנך עומד לצור הרבה דפים חדשים. האם הנך בטוח כי ברצונך להמשיך?</label>
+			<label index="wiz_newPages_listEnd">מקם דפים חדשים אחרי דפים קיימים</label>
+			<label index="wiz_newPages_lReset">נקה שדות</label>
+			<label index="wiz_newPages_noCreate">לא נוצרו דפים!</label>
+			<label index="wiz_newPages_page">דף</label>
+			<label index="wiz_W">W!</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

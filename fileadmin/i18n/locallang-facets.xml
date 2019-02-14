@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>
+			Language labels for facet content.
+			The file »locallang-facets.xml« will be loaded from the path set as
+			»settings.languageRootPath« in TypoScript.
+
+			Localisation keys / label indexes follow the convention:
+				* facet name for index FOO: facet.FOO
+				* facet name for value BAR in index FOO: facet.FOO.BAR
+		</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="facet.collection.Publikationen%20HSU">Publicationen HSU</label>
+			<label index="facet.openaccess">OpenAccess</label>
+			<label index="facet.year">Erscheinungsjahr</label>
+			<label index="facet.heatmap">Karte</label>
+			<label index="facet.publisher">Herausgeber*n / Verlag</label>
+			<label index="facet.subject">Schlagworte</label>
+			<label index="facet.ddc">Fachgebiete</label>
+			<label index="facet.creatorName_facet">Autor*n</label>
+			<label index="facet.resourceType">Ressourcentyp</label>
+			<label index="facet.language">Sprache</label>
+			<label index="facet.language.de">🇩🇪 Deutsch</label>
+			<label index="facet.language.en">🇬🇧 Englisch</label>
+			<label index="facet.language.fr">🇫🇷 Französisch</label>
+			<label index="facet.language.es">🇪🇸 Kastillisch (Spanisch)</label>
+			<label index="facet.language.ru">🇷🇺 Russisch</label>
+			<label index="facet.language.it">🇮🇹 Italienisch</label>
+			<label index="facet.language.pt">🇵🇹 Portugiesisch</label>
+			<label index="facet.language.nl">🇳🇱 Niederländisch</label>
+			<label index="facet.language.zh">🇨🇳 Mandarin (Chinesisch)</label>
+			<label index="facet.language.el">🇬🇷 Griechisch</label>
+			<label index="facet.language.pl">🇵🇱 Polnisch</label>
+			<label index="facet.language.tk">🇹🇷 Türkisch</label>
+			<label index="facet.language.no">🇳🇴 Norwegisch</label>
+			<label index="facet.language.ja">🇯🇵 Japanisch</label>
+			<label index="facet.language.por">🇵🇹 Portugiesisch</label>
+			
+			<label index="facet.collection">Sammlung</label>
+			<label index="facet.type">Resourcentyp</label>		
+		</languageKey>
+	</data>
+</T3locallang>

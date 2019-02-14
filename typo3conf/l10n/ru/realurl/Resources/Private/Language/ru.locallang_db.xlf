@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:25Z" product-name="realurl" target-language="ru">
+		<header/>
+		<body>
+			<trans-unit id="pages.tx_realurl_pathsegment" xml:space="preserve" approved="yes">
+				<source>Speaking URL path segment</source>
+			<target state="translated">Понятный сегмент адреса URL</target></trans-unit>
+			<trans-unit id="pages.tx_realurl_exclude" xml:space="preserve" approved="yes">
+				<source>Exclude from speaking URL</source>
+			<target state="translated">Исключить из понятного URL</target></trans-unit>
+			<trans-unit id="pages.tx_realurl_path_override" xml:space="preserve" approved="yes">
+				<source>Override the whole page path</source>
+			<target state="translated">Переписать весь путь к странице</target></trans-unit>
+			<trans-unit id="pages.palette_title" xml:space="preserve" approved="yes">
+				<source>Speaking URL</source>
+			<target state="translated">Понятный URL</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata" approved="yes">
+				<source>RealURL Path Data</source>
+			<target state="translated">Данные пути RealURL</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.page_id" approved="yes">
+				<source>Page id:</source>
+			<target state="translated">ID страницы:</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.rootpage_id" approved="yes">
+				<source>Root page id:</source>
+			<target state="translated">ID страницы Root:</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.language_id" approved="yes">
+				<source>Language id:</source>
+			<target state="translated">ID языка:</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.mpvar" approved="yes">
+				<source>MP parameter:</source>
+			<target state="translated">Параметр MP:</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.pagepath" approved="yes">
+				<source>Page path:</source>
+			<target state="translated">Путь страницы:</target></trans-unit>
+			<trans-unit id="tx_realurl_pathdata.expire" approved="yes">
+				<source>Expires:</source>
+			<target state="translated">Истекает:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias" approved="yes">
+				<source>RealURL Unique Alias</source>
+			<target state="translated">Уникальный псевдоним RealURL</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.expire" approved="yes">
+				<source>Expires:</source>
+			<target state="translated">Истекает:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.lang" approved="yes">
+				<source>Language id:</source>
+			<target state="translated">ID языка:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.tablename" approved="yes">
+				<source>Table name:</source>
+			<target state="translated">Название таблицы:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.value_alias" approved="yes">
+				<source>Value alias:</source>
+			<target state="translated">Значение псевдонима:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.value_id" approved="yes">
+				<source>Value id:</source>
+			<target state="translated">ID значения:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.field_alias" approved="yes">
+				<source>Field alias:</source>
+			<target state="translated">Псевдоним поля:</target></trans-unit>
+			<trans-unit id="tx_realurl_uniqalias.field_id" approved="yes">
+				<source>Field id:</source>
+			<target state="translated">ID поля:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata" approved="yes">
+				<source>RealURL URL Data</source>
+			<target state="translated">Данные URL RealURL</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.page_id" approved="yes">
+				<source>Page id:</source>
+			<target state="translated">ID страницы:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.rootpage_id" approved="yes">
+				<source>Root page id:</source>
+			<target state="translated">ID страницы Root:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.original_url" approved="yes">
+				<source>Original URL:</source>
+			<target state="translated">Исходный URL:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.speaking_url" approved="yes">
+				<source>Speaking URL:</source>
+			<target state="translated">Понятный URL:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.request_variables" approved="yes">
+				<source>Request variables:</source>
+			<target state="translated">Запросить переменные:</target></trans-unit>
+			<trans-unit id="tx_realurl_urldata.expire" approved="yes">
+				<source>Expires:</source>
+			<target state="translated">Истекает:</target></trans-unit>
+		</body>
+	</file>
+</xliff>

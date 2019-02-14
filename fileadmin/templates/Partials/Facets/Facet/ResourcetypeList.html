@@ -1,0 +1,25 @@
+{namespace s=Subugoe\Find\ViewHelpers}
+<ol class="facetList{f:if(condition:facetInfo.autocomplete, then:' autocomplete')}">
+	<f:for each="{facetData.values}" as="itemCount" key="facetTerm" iteration="iterator">
+		{v:format.replace(
+                        substring: ' ', 
+                        content: facetTerm, 
+                        replacement: '_', 
+                        count: 3) -> f:variable(name: 'key')}
+                        {facetInfo.map.{key} -> f:variable(name: 'facetTermIcon')}
+                <!-- facetTermIcon = facetInfo.map.{key} || 'default' -->   
+                <!--     
+		{f:if(condition:"{icon"},then:{icon},else:'bel_leer')} -> f:variable(name: 'facetTermIcon')}
+-->
+                {facetTerm -> f:variable(name: 'facetTermDisplay')}
+                <f:render partial="Facets/Facet/ResourcetypeList/Item"
+                        arguments="{_all}"/>
+	</f:for>
+	<f:if condition="{f:count(subject:facetData.values)} > {facetInfo.displayDefault}">
+		<li class="facetShowAll">
+			<a href="#" onclick="return tx_find.showAllFacetsOfType(event)">
+				<f:translate key="show all"/>
+			</a>
+		</li>
+	</f:if>
+</ol>

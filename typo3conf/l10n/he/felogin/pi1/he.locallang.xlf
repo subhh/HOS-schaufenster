@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T01:56:32Z" product-name="felogin">
+		<header/>
+		<body>
+			<trans-unit id="change_password" approved="yes">
+				<source>Change your password</source>
+				<target state="translated">שנה סיסמא</target>
+				<note>100%</note>
+			</trans-unit>
+			<trans-unit id="cookie_warning" approved="yes">
+				<source>Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</source>
+				<target state="translated">אזהרה: ישנה אפשרות שקוקיז לא מופעלים בדפדפן שלך! אם פרטי הכניסה נעלמים בקליק הבא זאת הסיבה וכדאי שתפעיל את הקוקיז (או תאפשר קבלת קוקיז מאתר זה) מיד!</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_done_message" approved="yes">
+				<source>Your password has been saved. You can now login with your new password.</source>
+				<target state="translated">סיסמתך נשמרה. אתה יכול כעת להכנס עם הסיסמא החדשה.</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_header" approved="yes">
+				<source>Change your password</source>
+				<target state="translated">שנה סיסמא</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_message" approved="yes">
+				<source>Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+				<target state="translated">אנא הכנס את הסיסמא החדשה פעמיים. אורך מינימאלי של סיסמה הוא %s תווים.</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_nolinkprefix_message" approved="no">
+				<source>Error: there is no prefix for the link. Please set one of the following in your typoscript template: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRefPrefix = /</source>
+				<target state="needs-translation">שגיאה: אין תחילית עבור הקישור. אנא קבע אחד מהתחיליות הבאות בתבנית ה-typoscript: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRelPrefix = http://yourdomain/</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_notequal_message" approved="yes">
+				<source>The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</source>
+				<target state="translated">הסיסמאות שונות, אנא הכנס את הסיסמא החדשה. אורך מינימאלי של סיסמא הוא %s תווים.</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_notvalid_message" approved="no">
+				<source>The link you clicked is not valid. Please repeat the forgot password procedure.</source>
+				<target state="needs-translation">הקישור עליו לחצת אינו תקין. אנא חזור על תהליך הסיסמא שנשכחה.</target>
+			</trans-unit>
+			<trans-unit id="ll_change_password_tooshort_message" approved="yes">
+				<source>The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</source>
+				<target state="translated">הסיסמה קצרה מדי. אנא הכנס את הסיסמאות החדשות פעמיים. אורך מינימאלי של סיסמא הוא %s תווים.</target>
+			</trans-unit>
+			<trans-unit id="ll_enter_your_data">
+				<source>Username or email address</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_error_header" approved="yes">
+				<source>Login failure</source>
+				<target state="translated">כניסה שגויה</target>
+			</trans-unit>
+			<trans-unit id="ll_error_message" xml:space="preserve" approved="yes">
+				<source>An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</source>
+			<target state="translated">אירעה טעות בכניסה. ככל הנראה לא הכנסת את שם המשתמש או הסיסמא הנכונים.
+ שים לב שהפרטים מוכנסים באופן מדויק, כולל אותיות גדולות/קטנות.
+אפשרות נוספת היא שהדפדפן שלך לא מפעיל קוקיז. </target></trans-unit>
+			<trans-unit id="ll_forgot_email_nopassword" xml:space="preserve">
+				<source>Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?</source>
+			<target/></trans-unit>
+			<trans-unit id="ll_forgot_email_password" xml:space="preserve" approved="yes">
+				<source>Your password
+Hi %s
+
+Your username is "%s"
+Your password is "%s"</source>
+			<target state="translated">פרטי התחברות
+שלום  %s
+
+שם משתמש שלך: "%s"
+סיסמה שלך: "%s"</target></trans-unit>
+			<trans-unit id="ll_forgot_header" approved="yes">
+				<source>Forgot your password?</source>
+				<target state="translated">שכחתם סיסמה?</target>
+			</trans-unit>
+			<trans-unit id="ll_forgot_header_backToLogin">
+				<source>Return to login form</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_message">
+				<source>Please enter the email address by which you registered your user account. Then press "Send password" and your password will immediately be emailed to you. Make sure to spell your email address correctly.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_message_emailSent">
+				<source>Your password has now been sent to the email address %s</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_reset_message">
+				<source>Please enter your username or email address. Instructions for resetting the password will be immediately emailed to you.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_reset_message_emailSent">
+				<source>An email has been sent to the address stored in your account and contains a link to reset your password. If you do not receive an email, your account or email address was not found.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_reset_message_error">
+				<source>Your account or email address does not exist.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="ll_forgot_validate_reset_password" xml:space="preserve">
+				<source>Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below.
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.</source>
+			<target/></trans-unit>
+			<trans-unit id="ll_logout_header" approved="yes">
+				<source>You have logged out.</source>
+				<target state="translated">יצאת מהאתר.</target>
+			</trans-unit>
+			<trans-unit id="ll_logout_message" approved="yes">
+				<source>You just logged out from your user session on this website. You can login again or as another user by the form below.</source>
+				<target state="translated">המשתמש יצא מזמן מאתר זה. אתה יכול להכנס שוב או כמשתמש אחר באמצעות הטופס שלהלן.</target>
+			</trans-unit>
+			<trans-unit id="ll_status_header" approved="yes">
+				<source>Current status</source>
+				<target state="translated">מצב נוכחי</target>
+			</trans-unit>
+			<trans-unit id="ll_status_message" approved="no">
+				<source>This is your current status</source>
+				<target state="needs-translation">זהו המצב הנוכחי שלך:</target>
+			</trans-unit>
+			<trans-unit id="ll_success_header" approved="yes">
+				<source>Login successful</source>
+				<target state="translated">כניסה מוצלחת</target>
+			</trans-unit>
+			<trans-unit id="ll_success_message" approved="yes">
+				<source>You are now logged in as '###USER###'</source>
+				<target state="translated">כעת נכנסת בתור '###USER###'</target>
+			</trans-unit>
+			<trans-unit id="ll_welcome_header" approved="yes">
+				<source>User login</source>
+				<target state="translated">התחברות משתמש</target>
+			</trans-unit>
+			<trans-unit id="ll_welcome_message" approved="no">
+				<source>Enter your username and password here in order to log in on the website</source>
+				<target state="needs-translation">הכנס שם משתמש וסיסמא כאן כדי להכנס לאתר</target>
+			</trans-unit>
+			<trans-unit id="login" approved="yes">
+				<source>Login</source>
+				<target state="translated">כניסה</target>
+			</trans-unit>
+			<trans-unit id="logout" approved="yes">
+				<source>Logout</source>
+				<target state="translated">יציאה</target>
+			</trans-unit>
+			<trans-unit id="newpassword_label1" approved="yes">
+				<source>Enter new password</source>
+				<target state="translated">הכנס סיסמה חדשה</target>
+			</trans-unit>
+			<trans-unit id="newpassword_label2" approved="yes">
+				<source>Repeat new password</source>
+				<target state="translated">הכנס את הסיסמה שנית</target>
+			</trans-unit>
+			<trans-unit id="noValidRedirectUrl">
+				<source>Url "%s" for redirect was not accepted!</source>
+				<target/>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="password" approved="no">
+				<source>Password</source>
+				<target state="needs-translation">סיסמא:</target>
+			</trans-unit>
+			<trans-unit id="permalogin" approved="no">
+				<source>Stay logged in</source>
+				<target state="needs-translation">השאר רשום:</target>
+			</trans-unit>
+			<trans-unit id="reset_password" approved="yes">
+				<source>Reset Password</source>
+				<target state="translated">אפס סיסמא</target>
+			</trans-unit>
+			<trans-unit id="send_password" approved="yes">
+				<source>Send password</source>
+				<target state="translated">שלח סיסמא</target>
+			</trans-unit>
+			<trans-unit id="username" approved="no">
+				<source>Username</source>
+				<target state="needs-translation">שם משתמש:</target>
+			</trans-unit>
+			<trans-unit id="xssAttackDetected">
+				<source>Url "%s" contained an XSS attack and was cleaned!</source>
+				<target/>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v8</note>
+			</trans-unit>
+			<trans-unit id="your_email" approved="no">
+				<source>Your email</source>
+				<target state="needs-translation">דוא"ל שלך:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

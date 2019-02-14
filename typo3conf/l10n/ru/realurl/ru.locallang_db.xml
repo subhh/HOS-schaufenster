@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+      <label index="pages.tx_realurl_pathsegment">Понятный сегмент адреса URL:</label>
+      <label index="pages.tx_realurl_exclude">Исключить из понятного URL:</label>
+      <label index="pages.tx_realurl_path_override">Переписать весь путь к странице</label>
+      <label index="pages.tx_realurl_nocache">Отключить кеш RealURL</label>
+      <label index="moduleFunction.tx_realurl_modfunc1">Управление понятными URL</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

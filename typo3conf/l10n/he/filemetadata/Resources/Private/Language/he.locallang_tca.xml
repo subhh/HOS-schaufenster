@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="fe_groups.files">סוגי קבצים מותרים</label>
+			<label index="palette.content_date">תאריך עדכון תוכן</label>
+			<label index="palette.geo_location">מיקום גאוגראפי</label>
+			<label index="palette.metrics">מטריקה</label>
+			<label index="palette.visibility">מצב הצגה</label>
+			<label index="placeholder.keywords">מילת מפתח 1, מילת מפתח 2, ...</label>
+			<label index="sys_file_metadata.caption">כיתוב</label>
+			<label index="sys_file_metadata.color_space">מרחב צבעים</label>
+			<label index="sys_file_metadata.content_creation_date">תאריך יצירת תוכן</label>
+			<label index="sys_file_metadata.content_modification_date">תאריך עדכון תוכן</label>
+			<label index="sys_file_metadata.creator">יוצר</label>
+			<label index="sys_file_metadata.creator_tool">מיוצר ע"י</label>
+			<label index="sys_file_metadata.download_name">שם קובץ להורדה</label>
+			<label index="sys_file_metadata.duration">משך בשניות:</label>
+			<label index="sys_file_metadata.fe_groups">הרשאות אתר FE</label>
+			<label index="sys_file_metadata.height">גובע</label>
+			<label index="sys_file_metadata.keywords">מילות מפתח</label>
+			<label index="sys_file_metadata.language">שפת הקובץ</label>
+			<label index="sys_file_metadata.latitude">קו רוחב</label>
+			<label index="sys_file_metadata.location_city">עיר</label>
+			<label index="sys_file_metadata.location_country">ארץ</label>
+			<label index="sys_file_metadata.location_region">אזור</label>
+			<label index="sys_file_metadata.longitude">קו אורך</label>
+			<label index="sys_file_metadata.note">הערה</label>
+			<label index="sys_file_metadata.pages">מספר עמודים</label>
+			<label index="sys_file_metadata.publisher">מפיץ</label>
+			<label index="sys_file_metadata.ranking">דירוג</label>
+			<label index="sys_file_metadata.source">מקור</label>
+			<label index="sys_file_metadata.status">מצב</label>
+			<label index="sys_file_metadata.status.1">OK</label>
+			<label index="sys_file_metadata.status.2">בהמתנה</label>
+			<label index="sys_file_metadata.status.3">מחקה לסקירה</label>
+			<label index="sys_file_metadata.unit">יחידה</label>
+			<label index="sys_file_metadata.visible">גלוי</label>
+			<label index="sys_file_metadata.width">רוחב</label>
+			<label index="tabs.metadata">מטא־נתונים</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

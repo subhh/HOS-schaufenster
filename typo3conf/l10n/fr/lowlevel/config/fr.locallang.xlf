@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2019-01-18T05:13:11Z" product-name="lowlevel">
+		<header/>
+		<body>
+			<trans-unit id="beUser" approved="yes">
+				<source>$GLOBALS['BE_USER']-&gt;uc (User Settings)</source>
+				<target state="translated">$GLOBALS['BE_USER']-&gt;uc (Paramètres de l'utilisateur)</target>
+			</trans-unit>
+			<trans-unit id="configuration" approved="yes">
+				<source>Configuration</source>
+				<target state="translated">Configuration</target>
+			</trans-unit>
+			<trans-unit id="copyPaste" approved="yes">
+				<source>(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</source>
+				<target state="translated">(Maintenant, copier/coller cette valeur dans le fichier de configuration. Cette assistant ne peut pas le faire ici...)</target>
+			</trans-unit>
+			<trans-unit id="cropLines" approved="yes">
+				<source>Crop lines</source>
+				<target state="translated">Limiter la longueur des lignes</target>
+			</trans-unit>
+			<trans-unit id="enterSearchPhrase" approved="no">
+				<source>Enter search phrase</source>
+				<target state="needs-translation">Entrer une phrase à rechercher</target>
+			</trans-unit>
+			<trans-unit id="loadedExt" approved="yes">
+				<source>$GLOBALS['TYPO3_LOADED_EXT'] (Loaded Extensions)</source>
+				<target state="translated">$GLOBALS['TYPO3_LOADED_EXT'] (Extensions chargées)</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v9</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="search" approved="yes">
+				<source>Search</source>
+				<target state="translated">Rechercher</target>
+			</trans-unit>
+			<trans-unit id="t3services" approved="yes">
+				<source>$GLOBALS['T3_SERVICES'] (Registered Services)</source>
+				<target state="translated">$GLOBALS['T3_SERVICES'] (Services enregistrés)</target>
+			</trans-unit>
+			<trans-unit id="tbemodules" approved="yes">
+				<source>$GLOBALS['TBE_MODULES'] (BE Modules)</source>
+				<target state="translated">$GLOBALS['TBE_MODULES'] (Modules BE)</target>
+			</trans-unit>
+			<trans-unit id="tbemodulesext" approved="yes">
+				<source>$GLOBALS['TBE_MODULES_EXT'] (BE Modules Extensions)</source>
+				<target state="translated">$GLOBALS['TBE_MODULES_EXT'] (Extensions des modules BE)</target>
+			</trans-unit>
+			<trans-unit id="tbeStyles" approved="yes">
+				<source>$GLOBALS['TBE_STYLES'] (Skinning Styles)</source>
+				<target state="translated">$GLOBALS['TBE_STYLES'] (Styles des thèmes)</target>
+			</trans-unit>
+			<trans-unit id="tca" approved="yes">
+				<source>$GLOBALS['TCA'] (Table configuration array)</source>
+				<target state="translated">$GLOBALS['TCA'] (Configuration des tables)</target>
+			</trans-unit>
+			<trans-unit id="tcaDescr" approved="yes">
+				<source>$GLOBALS['TCA_DESCR'] (Table Help Description)</source>
+				<target state="translated">$GLOBALS['TCA_DESCR'] (Aide des tables)</target>
+			</trans-unit>
+			<trans-unit id="typo3ConfVars" approved="yes">
+				<source>$GLOBALS['TYPO3_CONF_VARS'] (Global Configuration)</source>
+				<target state="translated">$GLOBALS['TYPO3_CONF_VARS'] (Configuration globale)</target>
+			</trans-unit>
+			<trans-unit id="useRegExp" approved="yes">
+				<source>Use regular expression (phrase is surrounded by slashes automatically)</source>
+				<target state="translated">Utiliser une expression régulière</target>
+			</trans-unit>
+			<trans-unit id="usersettings" approved="yes">
+				<source>$GLOBALS['TYPO3_USER_SETTINGS'] (User Settings Configuration)</source>
+				<target state="translated">$GLOBALS['TYPO3_USER_SETTINGS'] (Configuration des paramètres de l'utilisateur)</target>
+			</trans-unit>
+			<trans-unit id="variable" approved="no">
+				<source>Variable</source>
+				<target state="needs-translation">Variables :</target>
+			</trans-unit>
+			<trans-unit id="writeMessage" approved="yes">
+				<source>Following line was added to configuration file (%s): %s%s</source>
+				<target state="translated">La ligne suivante a été ajoutée au fichier de configuration (%s) : %s%s</target>
+			</trans-unit>
+			<trans-unit id="writeMessageFailed" approved="yes">
+				<source>Write to configuration file failed (%s)!</source>
+				<target state="translated">L'écriture du fichier de configuration a échoué (%s) !</target>
+			</trans-unit>
+			<trans-unit id="writeValue" approved="yes">
+				<source>Write value to configuration file</source>
+				<target state="translated">Ecrire les valeurs dans le fichier de configuration</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="felogin_forgotHash"/>
+			<label index="felogin_redirectPid">בכניסה הפנה לעמוד (felogin)</label>
+			<label index="tt_content.CType_pi1">כניסה למשתמש</label>
+			<label index="tt_content.pi_flexform.error_header">כותרת כניסה שגויה</label>
+			<label index="tt_content.pi_flexform.error_message">הודעת כניסה שגויה</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">שימוש בשדות הרשימות מטה:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">שדות/פרטי משתמש:</label>
+			<label index="tt_content.pi_flexform.field_orderList">שדות/רשימות משתמש:</label>
+			<label index="tt_content.pi_flexform.forgot_header">כותרת סיסמא שנשכחה</label>
+			<label index="tt_content.pi_flexform.forgot_message">הודעת סיסמא שנשכחה</label>
+			<label index="tt_content.pi_flexform.general_header">כותרת כללית</label>
+			<label index="tt_content.pi_flexform.general_message">הודעה כללית</label>
+			<label index="tt_content.pi_flexform.groupSelection">בחירת קבוצת FE:</label>
+			<label index="tt_content.pi_flexform.groupSelection_noGroup">אין קבוצה</label>
+			<label index="tt_content.pi_flexform.groupSelectmode">מצב בחירת קבוצת FE:</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">אל תראה נבחרים</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_FromTS">(מתוך typoscript)</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">הראה הכל</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">הראה נבחרים</label>
+			<label index="tt_content.pi_flexform.logout_header">כותרת יציאה</label>
+			<label index="tt_content.pi_flexform.logout_message">הודעת יציאה</label>
+			<label index="tt_content.pi_flexform.redirectDisable">בטל הפנייה</label>
+			<label index="tt_content.pi_flexform.redirectFirstMethod"/>
+			<label index="tt_content.pi_flexform.redirect_header">כותרת הפנייה</label>
+			<label index="tt_content.pi_flexform.redirect_message">הודעה הפנייה</label>
+			<label index="tt_content.pi_flexform.redirectMode">מצב הפנייה</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.0">מוגדר על-ידי רישומים קודמים של קבוצות-משתמשים</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.1">מוגדר על-ידי רשומה של משתמש</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.2">לאחר כניסה (TS או Flesxform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.3">אחרי יציאה (TS או Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.4">אחרי כניסה שגויה (TS או Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.5">מוגדר על-ידי מאפייני GET/POST</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.6">מוגדר על-ידי מפנה</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.7">מוגדר על-ידי ערכי דומיין</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">לאחר כניסה מוצלחת הפנה לעמוד</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">לאחר כניסה שגויה הפנה לעמוד</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">לאחר יציאה הפנה לעמוד</label>
+			<label index="tt_content.pi_flexform.sheet_general">כללי</label>
+			<label index="tt_content.pi_flexform.sheet_messages">הודעות</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">הפניות</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">הצגת קישור שחזור סיסמא</label>
+			<label index="tt_content.pi_flexform.show_logoutFormAfterLogin">הצגת טופס יציאה אחרי כניסה מוצלחת</label>
+			<label index="tt_content.pi_flexform.show_permalogin">הצגת אפשרויות שמירת כניסה</label>
+			<label index="tt_content.pi_flexform.status_header">כותרת תצוגת מצב</label>
+			<label index="tt_content.pi_flexform.status_message">הודעת תצוגת מצב</label>
+			<label index="tt_content.pi_flexform.success_header">כותרת כניסה מוצלחת</label>
+			<label index="tt_content.pi_flexform.success_message">הודעת כניסה מוצלחת</label>
+			<label index="tt_content.pi_flexform.template_file">קובץ תבנית</label>
+			<label index="tt_content.pi_flexform.user_storage">עמוד אחסון משתמש</label>
+			<label index="tt_content.pi_flexform.welcome_header">כותרת כניסה</label>
+			<label index="tt_content.pi_flexform.welcome_message">הודעת כניסה</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+      <label index="tx_realurl_nocache.description">Отключение кеша шифрования и дешифования RealURL только для этой страницы</label>
+      <label index="tx_realurl_pathsegment.description">Сегмент пути URL для этого. Допустимы лишь приемлемые для URL символы, а именно: латинские буквы, цифры, подчеркивание и/или дефис (знак минус).</label>
+      <label index="tx_realurl_exclude.description">Исключить эту страницу из понятного URL. Помните, что это сработает, только если эта страница не является целью читателя.</label>
+      <label index="tx_realurl_pathoverride.description">Если включено, поле сегмента понятного пути должно содержать полный путь к странице (за исключением pre- и postVars). Это дает возможность полного переназначения пути. Без этого параметра, поле определяет только единственный сегмент URL для текущей страницы. Когда переназначается весь путь, он НЕ ДОЛЖЕН начинаться или заканчиваться слешем!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

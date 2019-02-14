@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="he" type="array">
+			<label index="author">מחבר:</label>
+			<label index="category.1"/>
+			<label index="category.2"/>
+			<label index="category.3"/>
+			<label index="category.4"/>
+			<label index="date">תאריך:</label>
+			<label index="personal">אישי:</label>
+			<label index="yes"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

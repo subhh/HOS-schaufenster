@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T01:56:32Z" product-name="felogin">
+		<header/>
+		<body>
+			<trans-unit id="felogin_forgotHash">
+				<source>Forgot hash</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="felogin_redirectPid" approved="yes">
+				<source>Redirect at Login to Page (felogin)</source>
+				<target state="translated">בכניסה הפנה לעמוד (felogin)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.CType_pi1" approved="yes">
+				<source>Website User Login</source>
+				<target state="translated">כניסה למשתמש</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.error_header" approved="yes">
+				<source>Login Error Header</source>
+				<target state="translated">כותרת כניסה שגויה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.error_message" approved="yes">
+				<source>Login Error Message</source>
+				<target state="translated">הודעת כניסה שגויה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.field_manualOrder" approved="yes">
+				<source>Using fieldlists below:</source>
+				<target state="translated">שימוש בשדות הרשימות מטה:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.field_orderDetails" approved="yes">
+				<source>User Fields/details:</source>
+				<target state="translated">שדות/פרטי משתמש:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.field_orderList" approved="yes">
+				<source>User Fields/list:</source>
+				<target state="translated">שדות/רשימות משתמש:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.forgot_header" approved="yes">
+				<source>Forgot Password Header</source>
+				<target state="translated">כותרת סיסמא שנשכחה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.forgot_message" approved="yes">
+				<source>Forgot Password Message</source>
+				<target state="translated">הודעת סיסמא שנשכחה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.general_header" approved="yes">
+				<source>General Header</source>
+				<target state="translated">כותרת כללית</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.general_message" approved="yes">
+				<source>General Message</source>
+				<target state="translated">הודעה כללית</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelection" approved="yes">
+				<source>FE group selection:</source>
+				<target state="translated">בחירת קבוצת FE:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelection_noGroup" approved="yes">
+				<source>no group</source>
+				<target state="translated">אין קבוצה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelectmode" approved="yes">
+				<source>FE group select mode:</source>
+				<target state="translated">מצב בחירת קבוצת FE:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelectmode_DontShowSelected" approved="no">
+				<source>Don't show selected</source>
+				<target state="needs-translation">אל תראה נבחרים</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelectmode_FromTS" approved="yes">
+				<source>(from Typoscript)</source>
+				<target state="translated">(מתוך typoscript)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelectmode_showAll" approved="yes">
+				<source>Show all</source>
+				<target state="translated">הראה הכל</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.groupSelectmode_showSelected" approved="yes">
+				<source>Show selected</source>
+				<target state="translated">הראה נבחרים</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.logout_header" approved="yes">
+				<source>Logout Header</source>
+				<target state="translated">כותרת יציאה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.logout_message" approved="yes">
+				<source>Logout Message</source>
+				<target state="translated">הודעת יציאה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectDisable" approved="yes">
+				<source>Disable Redirect</source>
+				<target state="translated">בטל הפנייה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectFirstMethod">
+				<source>Use First Supported Mode from Selection</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirect_header" approved="yes">
+				<source>Redirect Header</source>
+				<target state="translated">כותרת הפנייה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirect_message" approved="yes">
+				<source>Redirect Message</source>
+				<target state="translated">הודעה הפנייה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode" approved="yes">
+				<source>Redirect Mode</source>
+				<target state="translated">מצב הפנייה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.0" approved="yes">
+				<source>Defined by Usergroup Record</source>
+				<target state="translated">מוגדר על-ידי רישומים קודמים של קבוצות-משתמשים</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.1" approved="yes">
+				<source>Defined by User Record</source>
+				<target state="translated">מוגדר על-ידי רשומה של משתמש</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.2" approved="yes">
+				<source>After Login (TS or Flexform)</source>
+				<target state="translated">לאחר כניסה (TS או Flesxform)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.3" approved="yes">
+				<source>After Logout (TS or Flexform)</source>
+				<target state="translated">אחרי יציאה (TS או Flexform)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.4" approved="yes">
+				<source>After Login Error (TS or Flexform)</source>
+				<target state="translated">אחרי כניסה שגויה (TS או Flexform)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.5" approved="yes">
+				<source>Defined by GET/POST Parameters</source>
+				<target state="translated">מוגדר על-ידי מאפייני GET/POST</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.6" approved="yes">
+				<source>Defined by Referrer</source>
+				<target state="translated">מוגדר על-ידי מפנה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectMode.I.7" approved="yes">
+				<source>Defined by Domain Entries</source>
+				<target state="translated">מוגדר על-ידי ערכי דומיין</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectPageLogin" approved="yes">
+				<source>After Successful Login Redirect to Page</source>
+				<target state="translated">לאחר כניסה מוצלחת הפנה לעמוד</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectPageLoginError" approved="yes">
+				<source>After Failed Login Redirect to Page</source>
+				<target state="translated">לאחר כניסה שגויה הפנה לעמוד</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.redirectPageLogout" approved="yes">
+				<source>After Logout Redirect to Page</source>
+				<target state="translated">לאחר יציאה הפנה לעמוד</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.sheet_general" approved="yes">
+				<source>General</source>
+				<target state="translated">כללי</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.sheet_messages" approved="yes">
+				<source>Messages</source>
+				<target state="translated">הודעות</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.sheet_redirect" approved="yes">
+				<source>Redirects</source>
+				<target state="translated">הפניות</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.show_forgot_password" approved="yes">
+				<source>Display Password Recovery Link</source>
+				<target state="translated">הצגת קישור שחזור סיסמא</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.show_logoutFormAfterLogin" approved="no">
+				<source>Disable redirect after successful login, but display logout-form</source>
+				<target state="needs-translation">הצגת טופס יציאה אחרי כניסה מוצלחת</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.show_permalogin" approved="yes">
+				<source>Display Remember Login Option</source>
+				<target state="translated">הצגת אפשרויות שמירת כניסה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.status_header" approved="yes">
+				<source>Status Display Header</source>
+				<target state="translated">כותרת תצוגת מצב</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.status_message" approved="yes">
+				<source>Status Display Message</source>
+				<target state="translated">הודעת תצוגת מצב</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.success_header" approved="yes">
+				<source>Login Success Header</source>
+				<target state="translated">כותרת כניסה מוצלחת</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.success_message" approved="yes">
+				<source>Login Success Message</source>
+				<target state="translated">הודעת כניסה מוצלחת</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.template_file" approved="yes">
+				<source>Template File</source>
+				<target state="translated">קובץ תבנית</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.user_storage" approved="yes">
+				<source>User Storage Page</source>
+				<target state="translated">עמוד אחסון משתמש</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.welcome_header" approved="yes">
+				<source>Welcome Header</source>
+				<target state="translated">כותרת כניסה</target>
+			</trans-unit>
+			<trans-unit id="tt_content.pi_flexform.welcome_message" approved="yes">
+				<source>Welcome Message</source>
+				<target state="translated">הודעת כניסה</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

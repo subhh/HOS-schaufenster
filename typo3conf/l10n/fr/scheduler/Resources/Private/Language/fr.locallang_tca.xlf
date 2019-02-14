@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2019-01-18T06:37:05Z" product-name="scheduler">
+		<header/>
+		<body>
+			<trans-unit id="tx_scheduler_task_group">
+				<source>Scheduler task group</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Groupe de taches planifiées</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="tx_scheduler_task_group.description">
+				<source>Description</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Description</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="tx_scheduler_task_group.groupName">
+				<source>Group name</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="phf64">
+					<target>Nom du groupe</target>
+				</alt-trans>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

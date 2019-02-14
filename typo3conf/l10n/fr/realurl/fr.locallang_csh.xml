@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+      <label index="tx_realurl_nocache.description">Désactiver l'encodage / décodage de Realurl pour cette page uniquement</label>
+      <label index="tx_realurl_pathsegment.description">Segment d'URL pour cela. Seulement des caractères valides pour les URLS sont autorisés : lettres sans accent / caractères spéciaux, nombres, tiret du bas et casse en minuscule uniquement.</label>
+      <label index="tx_realurl_exclude.description">Exclure cette page de la réécriture d'URL. Noter que cela ne fonctionne que si la page n'est pas la cible de l'internaute.</label>
+      <label index="tx_realurl_pathoverride.description">Si coché, le champ de segment d'URL contiendra le chemin d'accès complet à la page (hors pré- et postVars). Cela donne une option pour remplacer complètement le segment d'URL. Sans cette option, le champ définit seulement un segment d' URL unique pour le segment de la page en cours. Lors de la substitution de la totalité du chemin, le chemin ne doit pas commencer ou se terminer par une barre oblique (/) !</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

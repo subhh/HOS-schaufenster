@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2019-01-17T07:15:10Z" product-name="viewpage">
+		<header/>
+		<body>
+			<trans-unit id="autoSize" approved="yes">
+				<source>Auto Size</source>
+				<target state="translated">Taille automatique</target>
+			</trans-unit>
+			<trans-unit id="computer" approved="yes">
+				<source>Computer</source>
+				<target state="translated">Ordinateur</target>
+			</trans-unit>
+			<trans-unit id="customWidth" approved="yes">
+				<source>Custom Size</source>
+				<target state="translated">Taille personnalisée</target>
+			</trans-unit>
+			<trans-unit id="language" approved="yes">
+				<source>Language</source>
+				<target state="translated">Langage</target>
+			</trans-unit>
+			<trans-unit id="mobile" approved="yes">
+				<source>Mobile</source>
+				<target state="translated">Mobile</target>
+			</trans-unit>
+			<trans-unit id="refreshPage" approved="yes">
+				<source>Refresh page</source>
+				<target state="translated">Rafraîchir la page</target>
+			</trans-unit>
+			<trans-unit id="tablet" approved="yes">
+				<source>Tablet</source>
+				<target state="translated">Tablette</target>
+			</trans-unit>
+			<trans-unit id="width" approved="yes">
+				<source>Width</source>
+				<target state="translated">Largeur</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="beUser">$GLOBALS['BE_USER']-&gt;uc (Paramètres de l'utilisateur)</label>
+			<label index="configuration">Configuration</label>
+			<label index="copyPaste">(Maintenant, copier/coller cette valeur dans le fichier de configuration. Cette assistant ne peut pas le faire ici...)</label>
+			<label index="cropLines">Limiter la longueur des lignes</label>
+			<label index="enterSearchPhrase">Entrer une phrase à rechercher</label>
+			<label index="loadedExt">$GLOBALS['TYPO3_LOADED_EXT'] (Extensions chargées)</label>
+			<label index="search">Rechercher</label>
+			<label index="t3services">$GLOBALS['T3_SERVICES'] (Services enregistrés)</label>
+			<label index="tbemodules">$GLOBALS['TBE_MODULES'] (Modules BE)</label>
+			<label index="tbemodulesext">$GLOBALS['TBE_MODULES_EXT'] (Extensions des modules BE)</label>
+			<label index="tbeStyles">$GLOBALS['TBE_STYLES'] (Styles des thèmes)</label>
+			<label index="tca">$GLOBALS['TCA'] (Configuration des tables)</label>
+			<label index="tcaDescr">$GLOBALS['TCA_DESCR'] (Aide des tables)</label>
+			<label index="typo3ConfVars">$GLOBALS['TYPO3_CONF_VARS'] (Configuration globale)</label>
+			<label index="useRegExp">Utiliser une expression régulière</label>
+			<label index="usersettings">$GLOBALS['TYPO3_USER_SETTINGS'] (Configuration des paramètres de l'utilisateur)</label>
+			<label index="variable">Variables :</label>
+			<label index="writeMessage">La ligne suivante a été ajoutée au fichier de configuration (%s) : %s%s</label>
+			<label index="writeMessageFailed">L'écriture du fichier de configuration a échoué (%s) !</label>
+			<label index="writeValue">Ecrire les valeurs dans le fichier de configuration</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

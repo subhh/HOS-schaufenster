@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T04:42:09Z" product-name="lang">
+		<header/>
+		<body>
+			<trans-unit id="close" approved="yes">
+				<source>Close</source>
+				<target state="translated">סגור</target>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="details" approved="yes">
+				<source>Details</source>
+				<target state="translated">פרטים</target>
+			</trans-unit>
+			<trans-unit id="fullDescription" approved="yes">
+				<source>See full description of table</source>
+				<target state="translated">ראה תיאור מלא של טבלה</target>
+			</trans-unit>
+			<trans-unit id="fullDescription_module" approved="yes">
+				<source>See full description of module</source>
+				<target state="translated">ראה תיאור מלא של מודול</target>
+			</trans-unit>
+			<trans-unit id="full_manual" approved="yes">
+				<source>Full Manual (in one page)</source>
+				<target state="translated">הוראות שימוש המלאות (בדף אחד)</target>
+			</trans-unit>
+			<trans-unit id="full_manual_chapters" approved="yes">
+				<source>Manual Chapters</source>
+				<target state="translated">ראשי פרקים של הוראות שימוש</target>
+			</trans-unit>
+			<trans-unit id="goBack" approved="yes">
+				<source>Go back</source>
+				<target state="translated">עבור חזרה</target>
+			</trans-unit>
+			<trans-unit id="goToToc" approved="yes">
+				<source>&lt;&lt; go to Manual Index</source>
+				<target state="translated">עבור לאינדקס עזרה</target>
+			</trans-unit>
+			<trans-unit id="introduction" approved="yes">
+				<source>Introduction</source>
+				<target state="translated">מבוא</target>
+			</trans-unit>
+			<trans-unit id="manual_title">
+				<source>TYPO3 Inline User Manual</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="seeAlso" approved="yes">
+				<source>See also</source>
+				<target state="translated">ראה גם</target>
+			</trans-unit>
+			<trans-unit id="syntax" approved="yes">
+				<source>Syntax</source>
+				<target state="translated">תחביר</target>
+			</trans-unit>
+			<trans-unit id="title" approved="yes">
+				<source>TYPO3 Inline Help</source>
+				<target state="translated">עזרה באינטרנט</target>
+			</trans-unit>
+			<trans-unit id="TOC" approved="yes">
+				<source>Table Of Contents</source>
+				<target state="translated">טבלת התכנים</target>
+			</trans-unit>
+			<trans-unit id="TOC_core" approved="yes">
+				<source>TYPO3 Core Features</source>
+				<target state="translated">מאפיינים עיקריים של TYPO3</target>
+			</trans-unit>
+			<trans-unit id="TOC_extensions" approved="yes">
+				<source>Extensions</source>
+				<target state="translated">תוספות</target>
+			</trans-unit>
+			<trans-unit id="TOC_glossary">
+				<source>Glossary</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="TOC_modules">
+				<source>Backend Modules</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="TOC_other" approved="yes">
+				<source>Other</source>
+				<target state="translated">אחר</target>
+			</trans-unit>
+			<trans-unit id="TOC_tables" approved="yes">
+				<source>Database Tables</source>
+				<target state="translated">טבלאות מאגר מידע</target>
+			</trans-unit>
+			<trans-unit id="to_top" approved="yes">
+				<source>To top</source>
+				<target state="translated">לראש</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: / 
+Allow: /suche/ID/
+Disallow: /typo3-temp/
+Sitemap: http://hosdev.sub.uni-hamburg.de/?eID=sitemap

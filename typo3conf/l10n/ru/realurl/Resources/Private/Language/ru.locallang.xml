@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="ru" type="array">
+			<label index="mlang_tabs_tab">Понятные URL</label>
+			<label index="mlang_labels_tablabel">Управление понятными URL</label>
+			<label index="mlang_labels_tabdescr">Управление понятными URL в TYPO3 CMS</label>
+			<label index="module.index">Общая информация</label>
+			<label index="module.index.intro_functions">Это модуль администрирования RealURL. Он предоставляет функции, которые можно выбрать из селектора в верхней части. Вот обзор предоставленных функций.</label>
+			<label index="module.aliases">Псевдонимы</label>
+			<label index="module.aliases">Псевдонимы</label>
+			<label index="module.aliases.intro">Этот модуль управляет псевдонимами, которые создаются для элементов, таких как новости или адреса или любые другие пользовательские типы данных.</label>
+			<label index="module.aliases.not_available">В настоящее время нет доступных псевдонимов.</label>
+			<label index="module.aliases.not_found">Выбранный псевдоним больше не доступен.</label>
+			<label index="module.aliases.available">Доступные псевдонимы</label>
+			<label index="module.aliases.available.select">Выберите тип псевдонима:</label>
+			<label index="module.aliases.deleted">Псевдоним был удален.</label>
+			<label index="module.aliases.all_deleted">Псевдонимы были удалены.</label>
+			<label index="module.aliases.edit.submit">Сохранить</label>
+			<label index="module.aliases.edit.back">Отменить</label>
+			<label index="module.aliases.edit.alias_value">Значение псевдонима:</label>
+			<label index="module.aliases.edit.alias_info.tablename">Имя таблицы:</label>
+			<label index="module.aliases.edit.alias_info.uid">Uid записи:</label>
+			<label index="module.aliases.edit.alias_info.field_value">Значение поля:</label>
+			<label index="module.aliases.edit.saved">Псевдоним успешно обновлен.</label>
+			<label index="module.aliases.edit.error.already_exists">Такой псевдоним уже существует для другой записи на этом языке.</label>
+			<label index="module.aliases.edit.error.bad_alias_value">Значение псевдонима может содержать только следующие символы: %s</label>
+			<label index="module.aliases.search.for">Искать значение псевдонима для:</label>
+			<label index="module.aliases.search.submit">Отправить</label>
+			<label index="module.aliases.search.reset">Сбросить</label>
+			<label index="module.url_cache">Кеш URL-адресов</label>
+			<label index="module.url_cache.intro">Этот модуль позволяет просматривать и удалять записи из кеша для URL-адреса страниц. Данные URL содержат полные URL-адреса, состоящие из пути к странице и любых закодированных параметров. Обратите внимание, что &lt;strong&gt;чрезвычайно опасно&lt;/strong&gt; управлять этими элементами вручную! Если вы это сделаете, ваша установка или настройка может быть нарушена.</label>
+			<label index="module.path_cache">Кеш пути</label>
+			<label index="module.path_cache.intro">Этот модуль позволяет просматривать и удалять данные из кеша о пути страницы. Обратите внимание, что &lt;strong&gt;чрезвычайно опасно&lt;/strong&gt; управлять этими элементами вручную! Если вы это сделаете, ваша установка или настройка может быть нарушена.</label>
+			<label index="module.configuration">Настройка</label>
+			<label index="module.configuration.intro">Этот модуль покажет вам RealURL конфигурацию, как RealURL будет видеть его (в том числе значения по умолчанию)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Ваш поставщик решений TYPO3 может использовать свои собственные способы настройки RealUrl во время выполнения. Если это так, то этот модуль не может показать конфигурацию точно. Если вы подозреваете, что это так, обратитесь к поставщику решения TYPO3.</label>
+			<label index="module.dateTimeFormat">d.m.Y H:i</label>
+			<label index="module.tableHeader.alias">Псевдоним</label>
+			<label index="module.tableHeader.id">Id</label>
+			<label index="module.tableHeader.language">Язык</label>
+			<label index="module.tableHeader.expire">Истекает</label>
+			<label index="viewhelper.languageFromId.defaultLanguage">По умолчанию</label>
+			<label index="module.deleteAliasesOfType">Удалить все псевдонимы этого типа</label>
+			<label index="module.js.deleteSingleAlias">Вы хотите удалить этот псевдоним?</label>
+			<label index="module.js.yes">Да</label>
+			<label index="module.js.no">Нет</label>
+			<label index="module.js.confirmTitle">Подтвердить</label>
+			<label index="module.js.deleteAliases">Вы хотите удалить все псевдонимы этого типа?</label>
+			<label index="module.tableHeader.speaking_url">Понятные URL</label>
+			<label index="module.tableHeader.original_url">Оригинальный URL</label>
+			<label index="module.tableHeader.rootpage_id">Номер корневой страницы</label>
+			<label index="module.tableHeader.page_path">Путь к странице</label>
+			<label index="module.tableHeader.mp_var">Точка монтирования</label>
+			<label index="module.js.deleteSingleCacheEntry">Вы хотите удалить эту запись из кеша? Это может быть плохо сказаться для вашей установки!</label>
+			<label index="module.js.deleteCacheEntries">Вы хотите удалить все записи из кеша для этой страницы? Это может быть плохо сказаться для вашей установки!</label>
+			<label index="module.deleteCacheEntriesForPage">Удалить все записи кэша для этой страницы (вредно!)</label>
+			<label index="module.flushCache">Очистить все записи (вредно!)</label>
+			<label index="module.js.flushCache">Вы хотите удалить все кэшированные записи? Это ПРИВЕДЕТ к проблемам производительности веб-сайта и может сделать некоторые страницы недоступными!</label>
+			<label index="module.url_cache.entry_deleted">Запись кэша была удалена.</label>
+			<label index="module.url_cache.all_entries_deleted">Все записи для этой страницы были удалены.</label>
+			<label index="module.url_cache.flushed">Все записи кэша были удалены.</label>
+			<label index="module.path_cache.entry_deleted">Запись кэша была удалена.</label>
+			<label index="module.url_cache.duplicate_url">Обнаружен конфликт URL: '%s' также используется на странице(ах): %s</label>
+			<label index="module.path_cache.duplicate_path">Обнаружен конфликт пути: '%s' также используется на странице(ах): %s</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

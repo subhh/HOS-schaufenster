@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="he" datatype="plaintext" original="messages" date="2019-01-18T04:42:08Z" product-name="lang">
+		<header/>
+		<body>
+			<trans-unit id="age" approved="yes">
+				<source>Age</source>
+				<target state="translated">גיל</target>
+			</trans-unit>
+			<trans-unit id="changes" approved="yes">
+				<source>Changelog</source>
+				<target state="translated">שינויים לרשומה</target>
+			</trans-unit>
+			<trans-unit id="delete">
+				<source>delete</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="differenceMsg" approved="yes">
+				<source>In the Difference column you can see the changes at every modification of records. New changes are displayed in &lt;span class="diff-g"&gt;green colored text&lt;/span&gt; and the &lt;span class="diff-r"&gt;red colored text&lt;/span&gt; are the old values which were removed.</source>
+				<target state="translated">בעמודת ההבדלים &lt;span class="diff-g"&gt;הטקסט בירוק&lt;/span&gt; הוא שינויים חדשים &lt;span class="diff-r"&gt;והטקסט באדום&lt;/span&gt; הוא ערכים ישנים שהוסרו.</target>
+			</trans-unit>
+			<trans-unit id="differences" approved="yes">
+				<source>Differences</source>
+				<target state="translated">הבדלים</target>
+			</trans-unit>
+			<trans-unit id="elementHistory">
+				<source>You are currently seeing the history for an element.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="elementHistory_link">
+				<source>Show the full page history!</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="externalChange" approved="yes">
+				<source>Intermediate external change!</source>
+				<target state="translated">שינוי ביניים חיצוני!</target>
+			</trans-unit>
+			<trans-unit id="fullView">
+				<source>Return to full view</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="insert">
+				<source>insert</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="linkRecordHistory">
+				<source>Limit history to this record</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="markState">
+				<source>mark this change</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="maxSteps">
+				<source>Show entries:</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="maxSteps_all">
+				<source>ALL</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="maxSteps_marked">
+				<source>marked</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="mergedDifferences">
+				<source>Preview for Rollback</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="no" approved="yes">
+				<source>No</source>
+				<target state="translated">לא</target>
+			</trans-unit>
+			<trans-unit id="noDifferences">
+				<source>There are no differences to the current page!</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="return" approved="yes">
+				<source>Return</source>
+				<target state="translated">חזרה</target>
+			</trans-unit>
+			<trans-unit id="returnLink" approved="yes">
+				<source>Click here to go back</source>
+				<target state="translated">הקלק כאן כדי לחזור אחורה</target>
+			</trans-unit>
+			<trans-unit id="revertAll">
+				<source>Rollback all changes shown</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="revertField" approved="yes">
+				<source>Rollback single field</source>
+				<target state="translated">שחזר ערך ישן של שדה זה</target>
+			</trans-unit>
+			<trans-unit id="revertRecord" approved="no">
+				<source>Rollback single record</source>
+				<target state="needs-translation">שחזר ערך ישן של שדה זה</target>
+				<note>77%</note>
+			</trans-unit>
+			<trans-unit id="rollback">
+				<source>Rollback</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="settings">
+				<source>Settings</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="showDiff">
+				<source>Show differences:</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="showDiff_inline">
+				<source>Inline</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="showDiff_no" approved="yes">
+				<source>No</source>
+				<target state="translated">לא</target>
+				<note>100%</note>
+			</trans-unit>
+			<trans-unit id="showInsertDelete">
+				<source>Show inserts/deletes of records:</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="showSubElements">
+				<source>Show sub elements:</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="sumUpChanges" approved="yes">
+				<source>Rollback (Preview)</source>
+				<target state="translated">צבור שינויים עד לנקודה זו</target>
+			</trans-unit>
+			<trans-unit id="tableUid" approved="no">
+				<source>Table:uid (Title)</source>
+				<target state="needs-translation">טבלה/זהות גלובלית</target>
+			</trans-unit>
+			<trans-unit id="time" approved="yes">
+				<source>Time</source>
+				<target state="translated">שעה</target>
+			</trans-unit>
+			<trans-unit id="title" approved="yes">
+				<source>Show record history</source>
+				<target state="translated">הצג היסטוריה של הרשומה</target>
+			</trans-unit>
+			<trans-unit id="unmarkState">
+				<source>unMark this change</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="user" approved="yes">
+				<source>User</source>
+				<target state="translated">משתמש</target>
+			</trans-unit>
+			<trans-unit id="viaUser">
+				<source>via</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="yes" approved="yes">
+				<source>Yes</source>
+				<target state="translated">כן</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

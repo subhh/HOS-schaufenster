@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2016-11-26T02:35:32Z" product-name="realurl" target-language="ru">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Speaking URL Management</source>
+      <target state="translated">Управление понятными URL</target></trans-unit>
+      <trans-unit id="no_page_id" xml:space="preserve" approved="yes">
+        <source>Please, select a page from the page tree.</source>
+      <target state="translated">Выберете страницу в дереве страниц.</target></trans-unit>
+      <trans-unit id="depth" xml:space="preserve" approved="yes">
+        <source>Depth:</source>
+      <target state="translated">Глубина:</target></trans-unit>
+      <trans-unit id="function" xml:space="preserve" approved="yes">
+        <source>Show:</source>
+      <target state="translated">Показать:</target></trans-unit>
+      <trans-unit id="default_language" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">По умолчанию</target></trans-unit>
+      <trans-unit id="all_languages" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Все</target></trans-unit>
+      <trans-unit id="language" xml:space="preserve" approved="yes">
+        <source>Language:</source>
+      <target state="translated">Язык:</target></trans-unit>
+      <trans-unit id="search_path" xml:space="preserve" approved="yes">
+        <source>Path:</source>
+      <target state="translated">Путь:</target></trans-unit>
+      <trans-unit id="look_up" xml:space="preserve" approved="yes">
+        <source>Look up</source>
+      <target state="translated">Поиск</target></trans-unit>
+      <trans-unit id="show_all" xml:space="preserve" approved="yes">
+        <source>Show all</source>
+      <target state="translated">Показать все</target></trans-unit>
+      <trans-unit id="displaying_results" xml:space="preserve" approved="yes">
+        <source>Results %1$d-%2$d of %3$d</source>
+      <target state="translated">Результаты %1$d-%2$d из %3$d</target></trans-unit>
+      <trans-unit id="all_domains" xml:space="preserve" approved="yes">
+        <source>-- All domains --</source>
+      <target state="translated">-- Все домены --</target></trans-unit>
+    </body>
+  </file>
+</xliff>
