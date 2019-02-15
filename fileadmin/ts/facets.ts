@@ -20,11 +20,24 @@ oa {
 }
             
 collection {
-                    id=collection
-                    displayDefault = 25
-                    query = (collection:"%s")
-                    field = collection
+                id=collection
+                displayDefault = 25
+                query = (collection:"%s")
+                field = collection
+                type = CollectionList
+                icon = fileadmin/assets/%s.png
+                map {
+                  Publikationen_UKE_Hamburg = uke
+                  Publikationen_Uni_Hamburg = uhh
+                  E-Dissertationen_Uni_Hamburg = uhh
+                  Publikationen_HAW_Hamburg = haw 
+                  Publikationen_TU_Hamburg =  tuhh
+                  Publikationen_HSU = hsu
+                  Publikationen_HCU_Hamburg = hcu
+                  Forschungsdaten_TU_Hamburg = tuhh
+                  copernicus_org = copernicus 
                 }
+           }
 
 year {
                    id = year

@@ -5,10 +5,13 @@
 	It uses the standardFields configured in settings, result highlighting
 	(if configured) and a link to the document’s page.
 </f:comment>
-
+{v:format.replace(substring: ' ',content: document.resourceType, replacement: '_', count: 3) -> f:variable(name: 'key')}
+                        
+{settings.facets.type.map.{document.resourceType}}
 <li id="c{config.uid}-result-{document.id}">
 	<article data-documenttype="{document.resourceType}">
-	        <div style="margin-left:40px">		
+	        <span style="margin:10px 0 0 -30px;font-size:76px;position:absolute" class="resourcetype-icon {settings.facets.restype.map.{key}}"></span>
+	        <div style="margin-left:45px">		
 		<h1>
 		<f:format.htmlentitiesDecode>
 			<f:link.action
