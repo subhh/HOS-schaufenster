@@ -1,4 +1,9 @@
 {namespace s=Subugoe\Find\ViewHelpers}
+
+<!-- Stuff for displaying collections -->
+<style>.collectionIcon {width:24px;height:24px;cursor:pointer}</style>
+<script>$(function(){$('.collectionIcon').each(function(){const that = $(this);that.qtip({content: {text : '<img style="width:240px" src="'+that.attr('data-bigicon')+'"/><h2>'+that.parent().attr('value')+'</h2><div>'+that.parent().attr('count')+' Dokumente</div>'},style: {classes: 'qtip-light qtip-shadow'}});});});</script>
+<f:spaceless>
 <ol class="facetList{f:if(condition:facetInfo.autocomplete, then:' autocomplete')}">
 	<f:for each="{facetData.values}" as="itemCount" key="facetTerm" iteration="iterator">
 		{s:format.regexp(
@@ -6,13 +11,19 @@
 			match:'/[\.\s]+/',
 			replace:'_'
 		) -> f:variable(name:'key')}
-		{facetInfo.map.{key} -> f:variable(name:'icon')}
+		{facetInfo.collections.{key} -> f:variable(name:'icon')}
 		{s:format.regexp(
                         string: facetInfo.icon,
                         match: '/%s/',
                         replace:icon
                 ) -> f:variable(name:'facetTermIcon')}
+		{s:format.regexp(
+                        string: facetInfo.bigicon,
+                        match: '/%s/',
+                        replace:icon
+                ) -> f:variable(name:'facetTermBigIcon')}
                 {facetTerm -> f:variable(name: 'facetTermDisplay')}
+
                 <f:render partial="Facets/Facet/CollectionList/Item"
                         arguments="{_all}"/>
 	</f:for>
@@ -25,3 +36,4 @@
 		</li>
 	</f:if>
 </ol>
+</f:spaceless>

@@ -25,17 +25,18 @@ collection {
                 query = (collection:"%s")
                 field = collection
                 type = CollectionList
-                icon = fileadmin/assets/%s.png
-                map {
-                  Publikationen_UKE_Hamburg = uke
-                  Publikationen_Uni_Hamburg = uhh
-                  E-Dissertationen_Uni_Hamburg = uhh
-                  Publikationen_HAW_Hamburg = haw 
-                  Publikationen_TU_Hamburg =  tuhh
-                  Publikationen_HSU = hsu
-                  Publikationen_HCU_Hamburg = hcu
-                  Forschungsdaten_TU_Hamburg = tuhh
-                  copernicus_org = copernicus 
+                icon = fileadmin/assets/collections/%s.png
+                bigicon = fileadmin/assets/collections/%s_big.png
+                collections {
+                   Publikationen_UKE_Hamburg = uke
+                   Publikationen_Uni_Hamburg = uhh
+                   E-Dissertationen_Uni_Hamburg = uhh
+                   Publikationen_HAW_Hamburg = haw 
+                   Publikationen_TU_Hamburg =  tuhh
+                   Publikationen_HSU = hsu
+                   Publikationen_HCU_Hamburg = hcu
+                   Forschungsdaten_TU_Hamburg = tuhh
+                   copernicus_org = copernicus 
                 }
            }
 
@@ -90,7 +91,7 @@ cloud {
                 maxValues = 69
                 fontFamily = Roboto Condensed   
              id = Schlagworte
-             displayDefault = 23
+             displayDefault = 12
              hidden=0
              query = (subject:"%s")
              field = subject
@@ -108,15 +109,15 @@ creater  {
              displayDefault = 7
              query = (creatorName_facet:"%s")
              field = creatorName_facet
-             prepend = 👤	
-	     type = List
-	     autocomplete = 0			
-      }
+             prepend = 👤
+             type = List
+              autocomplete = 0
+ }
  restype {
             id = type
             field = resourceType
             type = ResourcetypeList
-            displayDefault = 12
+            displayDefault = 7
             hidden=0
             map  {
               Dissertation =  bel-zertifikat
@@ -155,6 +156,6 @@ creater  {
             id=language
             field = language
             hidden = 0
-            displayDefault = 20
+            displayDefault = 7
             query=(language:%s)
  }
