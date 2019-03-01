@@ -11,7 +11,11 @@ with new facets.
 In folder `filedamin` are the folders below:
 
 ## ts
+All typoscript files. The `view` property adds new search paths for
+`Partials` and `Templates`. In this case the partials comes from folder
+`fileadmin/templates/`
 
 ## assets
+
 
 ## templates
