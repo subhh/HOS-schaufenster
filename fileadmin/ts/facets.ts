@@ -93,51 +93,19 @@
              field = subject_ddc
 }
 8  {
-             id = Author
+             id = creatorname
              displayDefault = 7
              query = (creatorName_facet:"%s")
              field = creatorName_facet
-             prepend = 👤
              type = List
               autocomplete = 0
  }
 9 {
-            id = type
+            id = resourcetype
             field = resourceType
-            type = ResourcetypeList
+            type = List
             displayDefault = 7
             hidden=0
-            map  {
-              Dissertation =  bel-zertifikat
-              Report =  bel-buch
-              Article =  bel-artikel
-              Working_Paper =  bel-artikel
-              Proceedings_Part =  bel-artikel
-              Periodical_Part =  bel-artikel
-              Preprint =  bel-schreiben
-              Book =  bel-buch
-              Book_Part =  bel-artikel
-              Research_Paper = bel-artikel
-              Conference_Object =  bel-leer
-              Master_Thesis =  bel-zertifikat
-              Bachelor_Thesis =  bel-zertifikat
-              Other =  bel-leer
-              Habilitation =  bel-zertifikat
-              Course_Material =  bel-schreiben
-              Lecture =  bel-mkombo07
-              Study_Thesis =  bel-zertifikat
-              Proceedings =  bel-buch
-              Journal =  bel-zeit
-              Dataset =  bel-tabelle
-              Festschrift =  bel-torte
-              Poster =  bel-foto
-              Presentation =  bel-pcfilm
-              Interactive_Resource =  bel-papier
-              Learning_Object =  bel-papier
-              Technical_Report =  bel-buch
-              Journal_Issue =  bel-zeit
-              Thesis =  bel-zertifikat
-            }
             query = (resourceType:"%s")
       }
 10 {

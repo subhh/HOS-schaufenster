@@ -21,27 +21,25 @@
 			<label index="facet.publisher">Herausgeber*n / Verlag</label>
 			<label index="facet.subject">Schlagworte</label>
 			<label index="facet.ddc">Fachgebiete</label>
-			<label index="facet.creatorName_facet">Autor*n</label>
-			<label index="facet.resourceType">Ressourcentyp</label>
+			<label index="facet.creatorname">Autor*n</label>
+			<label index="facet.resourcetype">Ressourcentyp</label>
 			<label index="facet.language">Sprache</label>
-			<label index="facet.language.de">🇩🇪 Deutsch</label>
-			<label index="facet.language.en">🇬🇧 Englisch</label>
-			<label index="facet.language.fr">🇫🇷 Französisch</label>
-			<label index="facet.language.es">🇪🇸 Kastillisch (Spanisch)</label>
-			<label index="facet.language.ru">🇷🇺 Russisch</label>
-			<label index="facet.language.it">🇮🇹 Italienisch</label>
-			<label index="facet.language.pt">🇵🇹 Portugiesisch</label>
-			<label index="facet.language.nl">🇳🇱 Niederländisch</label>
-			<label index="facet.language.zh">🇨🇳 Mandarin (Chinesisch)</label>
-			<label index="facet.language.el">🇬🇷 Griechisch</label>
-			<label index="facet.language.pl">🇵🇱 Polnisch</label>
-			<label index="facet.language.tk">🇹🇷 Türkisch</label>
-			<label index="facet.language.no">🇳🇴 Norwegisch</label>
-			<label index="facet.language.ja">🇯🇵 Japanisch</label>
-			<label index="facet.language.por">🇵🇹 Portugiesisch</label>
-			
+			<label index="facet.language.de">Deutsch</label>
+			<label index="facet.language.en">Englisch</label>
+			<label index="facet.language.fr">Französisch</label>
+			<label index="facet.language.es">Kastillisch (Spanisch)</label>
+			<label index="facet.language.ru">Russisch</label>
+			<label index="facet.language.it">Italienisch</label>
+			<label index="facet.language.pt">Portugiesisch</label>
+			<label index="facet.language.nl">Niederländisch</label>
+			<label index="facet.language.zh">Mandarin (Chinesisch)</label>
+			<label index="facet.language.el">Griechisch</label>
+			<label index="facet.language.pl">Polnisch</label>
+			<label index="facet.language.tk">Türkisch</label>
+			<label index="facet.language.no">Norwegisch</label>
+			<label index="facet.language.ja">Japanisch</label>
+			<label index="facet.language.por">Portugiesisch</label>
 			<label index="facet.collection">Sammlung</label>
-			<label index="facet.type">Resourcentyp</label>		
 		</languageKey>
 	</data>
 </T3locallang>
