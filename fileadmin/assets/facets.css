@@ -42,6 +42,9 @@
 .facet-id-collection li[value='Publikationen HAW Hamburg']:before {
     background-image: url(collections/haw.png);
 }
+.facet-id-collection li[value='Deutsches Klimarechenzentrum']:before {
+    background-image: url(collections/dkrz.png);
+}
 .facet-id-collection li[value='copernicus.org']:before {
     background-image: url(collections/copernicus.png);
 }
@@ -77,22 +80,55 @@
   vertical-align: bottom;
 }
 
-.facet-id-resourcetype li[value='Dissertation'] a:before {
+.results li article {
+ position:relative;
+}
+
+.results li article:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: belugino!important;
+  speak: none;
+  color : darkred;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size:72px;
+  height: 48px;
+  line-height: 44px;
+  position:absolute;
+  left: -20px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
+
+.facet-id-resourcetype li[value='Dissertation'] a:before,
+.results article[data-documenttype='Dissertation']:before {
   content: '\e9a5'; /* zertifikat */
 }
-.facet-id-resourcetype li[value='Report'] a:before {
+.facet-id-resourcetype li[value='Report'] a:before,
+.results article[data-documenttype='Report']:before {
   content: '\e969'; /* buch */
 }
-.facet-id-resourcetype li[value='Article'] a:before {
+.facet-id-resourcetype li[value='Article'] a:before,
+.results article[data-documenttype='Article']:before {
   content: '\e9aa'; /* artikel */
 }
-.facet-id-resourcetype li[value='Working Paper'] a:before {
+.facet-id-resourcetype li[value='Working Paper'] a:before,
+.results article[data-documenttype='Working Paper']:before {
   content: '\e9aa'; /* artikel */
 }
-.facet-id-resourcetype li[value='Proceedings Part'] a:before {
+.facet-id-resourcetype li[value='Proceedings Part'] a:before,
+.results article[data-documenttype='Proceedings Part']:before {
   content: '\e9aa'; /* artikel */
 }
-.facet-id-resourcetype li[value='Periodical Part'] a:before {
+.facet-id-resourcetype li[value='Periodical Part'] a:before,
+.results article[data-documenttype='Periodical Part']:before {
   content: '\e9aa'; /* artikel */
 }
 .facet-id-resourcetype li[value='Preprint'] a:before {

@@ -16,7 +16,7 @@
 		<languageKey index="default" type="array">
 			<label index="facet.collection.Publikationen%20HSU">Publicationen HSU</label>
 			<label index="facet.openaccess">OpenAccess</label>
-			<label index="facet.year">Erscheinungsjahr</label>
+			<label index="facet.publicationyear">Erscheinungsjahr</label>
 			<label index="facet.heatmap">Karte</label>
 			<label index="facet.publisher">Herausgeber*n / Verlag</label>
 			<label index="facet.subject">Schlagworte</label>

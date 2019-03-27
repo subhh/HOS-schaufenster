@@ -18,7 +18,6 @@
                    Close = Restricted Access 
             }
 }
-            
 2 {
                 id=collection
                 displayDefault = 25
@@ -29,14 +28,14 @@
            }
 
 3 {
-                   id = year
-                   type = Histogram
-                   field = publicationYear
-                   fetchMaximum=1000
-                   barWidth=10
-                }
+             id = publicationyear
+             type = Histogram
+             field = publicationYear
+             fetchMaximum = 4779
+             sortOrder = index
+          }
 
-4 {
+heatmap {
             id = heatmap
             type = Heatmap
             field = geoLocationPoint
@@ -47,25 +46,18 @@
 	           type = wms
 	           endpoint = https://geodienste.hamburg.de/
 	           service  = HH_WMS_DISK60 
-	           //service = HH_WMS_Cache_Stadtplan
-	           //layers = stadtplan
 	           layers  = 1
-	           //layers = ALKIS_Basiskarte_farbig
-	           //crs = EPSG4326
 	           crs = EPSG:3857
                    attribution = Map tiles by Landesbetrieb für Geoinformation und Vermessung
 		   size = @1.5x
-		   maxzoom =14
-		   minzoom=11
+		   maxzoom = 14
+		   minzoom = 11
             }
-
-            //tileprovider = https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}@2x.png
             fetchMaximum = 1000
         }
        
 5        {
              id = publisher
-             displayDefault = 10
              query = (publisher_facet:"%s")
              field = publisher_facet
                  type = Pie
@@ -79,8 +71,6 @@
                 maxValues = 69
                 fontFamily = Roboto Condensed   
              id = Schlagworte
-             displayDefault = 12
-             hidden=0
              query = (subject:"%s")
              field = subject
 }

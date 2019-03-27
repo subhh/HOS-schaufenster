@@ -1,28 +1,54 @@
+{namespace s=Subugoe\Find\ViewHelpers}
+
 <f:alias map="{
-  valueOpen:'{settings.facets.oa.values.Open}',
-  labelOpen:'{settings.facets.oa.labels.Open}',
-  valueAll:'{settings.facets.oa.values.All}',
-  labelAll:'{settings.facets.oa.labels.All}',
-  labelClose:'{settings.facets.oa.labels.Close}', 
-  valueClose:'{settings.facets.oa.values.Close}'
+  valueOpen:'{facetInfo.values.Open}',
+  labelOpen:'{facetInfo.labels.Open}',
+  valueAll:'{facetInfo.values.All}',
+  labelAll:'{facetInfo.labels.All}',
+  labelClose:'{facetInfo.labels.Close}', 
+  valueClose:'{facetInfo.values.Close}'
   }">
+
 <f:for each="{config.activeFacets.OpenAccess}" as="item">
     <f:variable name="filter" value="{item.term}" />
 </f:for>
- 
-<div class="tx_discovery_3stateswitch"
-data-link="{settings.facets.oa.link}" data-toast="{settings.facets.oa.toast}">
-  <link href="{settings.facets.oa.csspath}" rel="stylesheet" />
+<div 	class="tx_discovery_3stateswitch"
+        data-toast="{facetInfo.toast}">
+  <link href="{facetInfo.csspath}" rel="stylesheet" />
   <style>.facets .facet-id-OpenAccess h1 {display:none}</style> 
   <div class="switch-toggle switch-3 switch-candy">
   
-    <input id="on" name="state-d" type="radio" <f:if condition="{filter}=={valueOpen}">checked</f:if>> 
+    <input id="on" data-link='{f:uri.action(
+        addQueryString : "TRUE",
+        arguments : "{s:find.facetLinkArguments(facetID:facetInfo.id,
+        facetTerm:valueOpen, activeFacets:config.activeFacets)}",
+        argumentsToBeExcludedFromQueryString :
+        "{0:\"{config.prefixID}[page]\"}",
+        section : "{settings.jumpToID}",
+        noCacheHash : "1"
+)}' name="state-d" type="radio" <f:if condition="{filter}=={valueOpen}">checked</f:if>> 
     <label for="on" value="{valueOpen}">{labelOpen}</label>
  
-    <input id="na" name="state-d" type="radio" <f:if condition="{filter}=={valueAll} || {filter}==''">checked</f:if>>
+    <input id="na" data-link='{f:uri.action(
+        addQueryString : "TRUE",
+        arguments : "{s:find.facetLinkArguments(facetID:facetInfo.id,
+        facetTerm:valueAll, activeFacets:config.activeFacets)}",
+        argumentsToBeExcludedFromQueryString :
+        "{0:\"{config.prefixID}[page]\"}",
+        section : "{settings.jumpToID}",
+        noCacheHash : "1"
+)}' name="state-d" type="radio" <f:if condition="{filter}=={valueAll} || {filter}==''">checked</f:if>>
     <label for="na" value="{valueAll}">{labelAll}</label>
 
-    <input id="off" name="state-d" type="radio" <f:if condition="{filter}=={valueClose}">checked</f:if>>
+    <input id="off" data-link='{f:uri.action(
+        addQueryString : "TRUE",
+        arguments : "{s:find.facetLinkArguments(facetID:facetInfo.id,
+        facetTerm:valueClose, activeFacets:config.activeFacets)}",
+        argumentsToBeExcludedFromQueryString :
+        "{0:\"{config.prefixID}[page]\"}",
+        section : "{settings.jumpToID}",
+        noCacheHash : "1"
+)}' name="state-d" type="radio" <f:if condition="{filter}=={valueClose}">checked</f:if>>
     <label for="off" value="{valueClose}">{labelClose}</label><a></a>
   </div>
 </div>
@@ -30,6 +56,8 @@ data-link="{settings.facets.oa.link}" data-toast="{settings.facets.oa.toast}">
 
 <script>
 $('.tx_discovery_3stateswitch label').click(function(e) {
+      const that = $(this);
+      const link = $('#'+that.attr('for')).data('link');
       const elem = $('.tx_discovery_3stateswitch');
       const filter = $(this)[0].innerText;
       if ($.toast) 
@@ -37,7 +65,7 @@ $('.tx_discovery_3stateswitch label').click(function(e) {
               message: elem.attr('data-toast').replace('%s',filter),
               timeout: 3000, 
         });
-  self.location = elem.attr('data-link').replace('%s',$(this).attr('value'));
+    self.location = link;;
 });
 </script>
 </f:alias>
