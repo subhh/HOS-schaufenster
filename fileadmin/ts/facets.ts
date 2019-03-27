@@ -1,4 +1,4 @@
-oa {
+1 {
             id = OpenAccess
             hiddenheader = 1
             field = rightsOA
@@ -19,28 +19,16 @@ oa {
             }
 }
             
-collection {
+2 {
                 id=collection
                 displayDefault = 25
                 query = (collection:"%s")
                 field = collection
-                type = CollectionList
-                icon = fileadmin/assets/collections/%s.png
+                type = List
                 bigicon = fileadmin/assets/collections/%s_big.png
-                collections {
-                   Publikationen_UKE_Hamburg = uke
-                   Publikationen_Uni_Hamburg = uhh
-                   E-Dissertationen_Uni_Hamburg = uhh
-                   Publikationen_HAW_Hamburg = haw 
-                   Publikationen_TU_Hamburg =  tuhh
-                   Publikationen_HSU = hsu
-                   Publikationen_HCU_Hamburg = hcu
-                   Forschungsdaten_TU_Hamburg = tuhh
-                   copernicus_org = copernicus 
-                }
            }
 
-year {
+3 {
                    id = year
                    type = Histogram
                    field = publicationYear
@@ -48,7 +36,7 @@ year {
                    barWidth=10
                 }
 
-heatmap {
+4 {
             id = heatmap
             type = Heatmap
             field = geoLocationPoint
@@ -75,7 +63,7 @@ heatmap {
             fetchMaximum = 1000
         }
        
-publicant {
+5        {
              id = publisher
              displayDefault = 10
              query = (publisher_facet:"%s")
@@ -85,7 +73,7 @@ publicant {
                 maxValues = 25
                 pieHeight = 100  
 }
-cloud {
+6 {
                 type = Wordcloud
                 cloudHeight = 100
                 maxValues = 69
@@ -96,7 +84,7 @@ cloud {
              query = (subject:"%s")
              field = subject
 }
-ddc {
+7 {
              id = ddc
              displayDefault = 12
              hidden = 0
@@ -104,7 +92,7 @@ ddc {
                 query = (subject_ddc:"%s")
              field = subject_ddc
 }
-creater  {
+8  {
              id = Author
              displayDefault = 7
              query = (creatorName_facet:"%s")
@@ -113,7 +101,7 @@ creater  {
              type = List
               autocomplete = 0
  }
- restype {
+9 {
             id = type
             field = resourceType
             type = ResourcetypeList
@@ -152,7 +140,7 @@ creater  {
             }
             query = (resourceType:"%s")
       }
- lang {
+10 {
             id=language
             field = language
             hidden = 0

@@ -17,6 +17,9 @@ plugin.tx_find {
 		<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/ts/queryfields.ts">
 	}
 	assetFolder = fileadmin/assets
+	CSSPaths {
+	    20 = fileadmin/assets/facets.css
+	}
    }
    view {
         partialRootPaths {
