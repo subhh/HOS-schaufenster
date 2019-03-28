@@ -14,7 +14,7 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="facet.collection.Publikationen%20HSU">Publicationen HSU</label>
+			<label index="facet.collection.Publikationen%20HSU">Publikationen HSU</label>
 			<label index="facet.openaccess">OpenAccess</label>
 			<label index="facet.publicationyear">Erscheinungsjahr</label>
 			<label index="facet.heatmap">Karte</label>
